@@ -1,25 +1,25 @@
-"last modify:20:57 2012-7-28
+"last modify:23:21 2012-7-31
 
 
-"#########è§„èŒƒè¯´æ˜Ž####################
-"å»ºç«‹äºŽ2012-04-26
+"#########¹æ·¶ËµÃ÷####################
+"½¨Á¢ÓÚ2012-04-26
 
-"è®¾ç½®æ ‡é¢˜å‚è€ƒï¼š#########Vimwikiç›¸å…³è®¾ç½®#########  vimwikiä¸Žå‰é¢çš„#å·ä¹‹é—´ä¸è¦æœ‰ä»»ä½•çš„å­—ç¬¦ï¼Œvimwikiä¹‹åŽå¯ä»¥éšä¾¿æ·»åŠ æ±‰å­—ï¼Œä»¥æ–¹ä¾¿é˜…è¯»ã€‚è¿™æ ·åšçš„ç›®çš„æ˜¯ä»¥åŽå¯ä»¥é€šè¿‡æœç´¢ #Vimwiki å¿«é€Ÿå®šä½åˆ°vimwikiè®¾ç½®åŒºåŸŸã€‚
+"ÉèÖÃ±êÌâ²Î¿¼£º#########VimwikiÏà¹ØÉèÖÃ#########  vimwikiÓëÇ°ÃæµÄ#ºÅÖ®¼ä²»ÒªÓÐÈÎºÎµÄ×Ö·û£¬vimwikiÖ®ºó¿ÉÒÔËæ±ãÌí¼Óºº×Ö£¬ÒÔ·½±ãÔÄ¶Á¡£ÕâÑù×öµÄÄ¿µÄÊÇÒÔºó¿ÉÒÔÍ¨¹ýËÑË÷ #Vimwiki ¿ìËÙ¶¨Î»µ½vimwikiÉèÖÃÇøÓò¡£
 
-"ç›®å‰æœ‰ è§„èŒƒè¯´æ˜Ž å…¨å±€è®¾ç½® vimwiki calendar Voom å¿«æ·é”®æ±‡æ€» 4ä¸ªè®¾ç½®åŒº
+"Ä¿Ç°ÓÐ ¹æ·¶ËµÃ÷ È«¾ÖÉèÖÃ vimwiki calendar Voom ¿ì½Ý¼ü»ã×Ü 4¸öÉèÖÃÇø
 
-"è‡ªå®šä¹‰çš„å¿«æ·é”®åœ¨å„è‡ªåŒºåŸŸå®šä¹‰ï¼Œå¦‚vimwikiçš„å¿«æ·é”®åœ¨vimwikiè®¾ç½®åŒºåŸŸå®šä¹‰ã€‚ä½†ä¸ºäº†ä»¥åŽç®¡ç†æŸ¥çœ‹æ–¹ä¾¿ï¼Œè¦æŠŠè®¾ç½®çš„å¿«æ·é”®ä»¥æ³¨é‡Šçš„æ–¹å¼åœ¨ #######å¿«æ·é”®æ±‡æ€»##### åŒºåŸŸå¤‡ä»½ä¸€ä¸‹
+"×Ô¶¨ÒåµÄ¿ì½Ý¼üÔÚ¸÷×ÔÇøÓò¶¨Òå£¬ÈçvimwikiµÄ¿ì½Ý¼üÔÚvimwikiÉèÖÃÇøÓò¶¨Òå¡£µ«ÎªÁËÒÔºó¹ÜÀí²é¿´·½±ã£¬Òª°ÑÉèÖÃµÄ¿ì½Ý¼üÒÔ×¢ÊÍµÄ·½Ê½ÔÚ #######¿ì½Ý¼ü»ã×Ü##### ÇøÓò±¸·ÝÒ»ÏÂ
 
-"ä¸€èˆ¬æƒ…å†µä¸‹å„åŒºåŸŸåŽé¢æ·»åŠ çš„è®¾ç½®æ”¾åœ¨å„åŒºåŸŸçš„åŽé¢ï¼Œæ·»åŠ æ—¶æœç´¢append æ ‡é¢˜åå¿«é€Ÿå®šä½åˆ°è¦æ·»åŠ çš„ä½ç½®ã€‚å¦‚ä¸ºvimwikiæ·»åŠ è®¾ç½®åˆ™æœç´¢ append vimwiki å¯å¿«é€Ÿå®šä½åˆ°æ·»åŠ ä½ç½®ã€‚
+"Ò»°ãÇé¿öÏÂ¸÷ÇøÓòºóÃæÌí¼ÓµÄÉèÖÃ·ÅÔÚ¸÷ÇøÓòµÄºóÃæ£¬Ìí¼ÓÊ±ËÑË÷append ±êÌâÃû¿ìËÙ¶¨Î»µ½ÒªÌí¼ÓµÄÎ»ÖÃ¡£ÈçÎªvimwikiÌí¼ÓÉèÖÃÔòËÑË÷ append vimwiki ¿É¿ìËÙ¶¨Î»µ½Ìí¼ÓÎ»ÖÃ¡£
 
-"æ¯æ¬¡ä¿®æ”¹å®Œ_vimrc è¦æ›´æ–°last modify ä»¥ä¾¿dorm labæ ¸å¯¹æ˜¯å¦ä¸ºåŒä¸€ç‰ˆæœ¬ã€‚
+"Ã¿´ÎÐÞ¸ÄÍê_vimrc Òª¸üÐÂlast modify ÒÔ±ãdorm labºË¶ÔÊÇ·ñÎªÍ¬Ò»°æ±¾¡£
 
-"appendã€€standardã€€è§„èŒƒè¯´æ˜Žåœ¨ä¸Šé¢æ·»åŠ #######
+"append¡¡standard¡¡¹æ·¶ËµÃ÷ÔÚÉÏÃæÌí¼Ó#######
 
 
-"##########hotkey å¿«æ·é”®æ±‡æ€»####################
-"------ä¸‹æ–¹éƒ½æ˜¯è‡ªå®šä¹‰çš„å¿«æ·é”®ï¼Œå·²ç»åœ¨å„è‡ªåŒºåŸŸè®¾ç½®ï¼Œè¿™é‡Œä¸ºäº†ä»¥åŽç®¡ç†æ–¹ä¾¿ï¼Œä¸ºäº†é˜²æ­¢ä»¥åŽè®¾ç½®å¿«æ·é”®å†²çªï¼Œæ‰€ä»¥è¿™é‡Œé›†ä¸­èµ·æ¥ã€‚
-"-------å…¨å±€
+"##########hotkey ¿ì½Ý¼ü»ã×Ü####################
+"------ÏÂ·½¶¼ÊÇ×Ô¶¨ÒåµÄ¿ì½Ý¼ü£¬ÒÑ¾­ÔÚ¸÷×ÔÇøÓòÉèÖÃ£¬ÕâÀïÎªÁËÒÔºó¹ÜÀí·½±ã£¬ÎªÁË·ÀÖ¹ÒÔºóÉèÖÃ¿ì½Ý¼ü³åÍ»£¬ËùÒÔÕâÀï¼¯ÖÐÆðÀ´¡£
+"-------È«¾Ö
 	"map md : <esc>: cd E:\ApplicationData\netDisk\klive\wiki
 	"map mc	: <esc>:!..\..\copyNext.bat
 	"map mc2: <esc>:!D:\shortcut\commonTools\copyLog\copyLog.bat
@@ -62,21 +62,22 @@
 	"map <leader>gc :GitCommit<cr>
 	"map <leader>ga :GitAdd<cr>
 	"map <leader>gp :GitPush<cr>
+	"map <leader>gpa :GitPush --all<cr>
 	"map <leader>gL :GitPull<cr>
 	"map <leader>gl :GitLog<cr>
 
-"append hotkey hotkyeè®¾ç½®åœ¨ä¸Šé¢æ·»åŠ 
+"append hotkey hotkyeÉèÖÃÔÚÉÏÃæÌí¼Ó
 
 
-"##############global settingå…¨å±€è®¾ç½®##########################
+"##############global settingÈ«¾ÖÉèÖÃ##########################
 
-"pathogen çš„è®¾ç½®ï¼Œpathogenç”¨äºŽç®¡ç†æ’ä»¶ï¼Œä»¥åŽå®‰è£…æ’ä»¶åœ¨bundleç›®å½•ä¸‹å°±ok.
+"pathogen µÄÉèÖÃ£¬pathogenÓÃÓÚ¹ÜÀí²å¼þ£¬ÒÔºó°²×°²å¼þÔÚbundleÄ¿Â¼ÏÂ¾Íok.
 call pathogen#infect()
 
 
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
-"æ³¨é‡ŠæŽ‰ä¸‹ä¸€è¡Œæ˜¯ä¸ºäº†vimçš„ctrl+vä¸ä¸Žwindowsçš„å†²çªã€‚
+"×¢ÊÍµôÏÂÒ»ÐÐÊÇÎªÁËvimµÄctrl+v²»ÓëwindowsµÄ³åÍ»¡£
 "source $VIMRUNTIME/mswin.vim
 behave mswin
 
@@ -107,49 +108,49 @@ endfunction
 
 
 
-"ä»¥ä¸‹å†…å®¹å…¨éƒ¨éƒ½ç”±mangæ·»åŠ 
+"ÒÔÏÂÄÚÈÝÈ«²¿¶¼ÓÉmangÌí¼Ó
 
 
-"æœç´¢æ—¶æ™ºèƒ½å¿½ç•¥å¤§å°å†™ã€‚å³å¦‚æžœæœç´¢è¯å…¨æ˜¯å°å†™ï¼Œåˆ™å¿½ç•¥å¤§å°å†™ï¼Œå¦‚æžœæœ‰ä¸€ä¸ªå¤§å†™åˆ™å¤§å°å†™æ•æ„Ÿ
+"ËÑË÷Ê±ÖÇÄÜºöÂÔ´óÐ¡Ð´¡£¼´Èç¹ûËÑË÷´ÊÈ«ÊÇÐ¡Ð´£¬ÔòºöÂÔ´óÐ¡Ð´£¬Èç¹ûÓÐÒ»¸ö´óÐ´Ôò´óÐ¡Ð´Ãô¸Ð
 set ignorecase smartcase
 
-" æ‰“å¼€è¯­æ³•é«˜äº®
+" ´ò¿ªÓï·¨¸ßÁÁ
 syntax enable
 
-" é…è‰²æ–¹æ¡ˆ
+" ÅäÉ«·½°¸
 colorscheme desert
 
-" å­—ä½“ã€å­—å·
+" ×ÖÌå¡¢×ÖºÅ
 set guifont=Courier\ New:h20
 
-"æ˜¾ç¤ºè¡Œå·	
+"ÏÔÊ¾ÐÐºÅ	
 set nu
 
 
-"ä¸‹é¢5è¡Œç”¨æ¥è§£å†³gVimèœå•æ å’Œå³é”®èœå•ä¹±ç é—®é¢˜"
+"ÏÂÃæ5ÐÐÓÃÀ´½â¾ögVim²Ëµ¥À¸ºÍÓÒ¼ü²Ëµ¥ÂÒÂëÎÊÌâ"
 set encoding=utf8
 set langmenu=zh_CN.UTF-8
 set imcmdline
-source $VIMRUNTIME/delmenu.vim "ä¸åŠ è¿™å¥ï¼Œèœå•ä¹±ç 
+source $VIMRUNTIME/delmenu.vim "²»¼ÓÕâ¾ä£¬²Ëµ¥ÂÒÂë
 source $VIMRUNTIME/menu.vim
 
-" è§£å†³gVimä¸­æç¤ºæ¡†ä¹±ç 
+" ½â¾ögVimÖÐÌáÊ¾¿òÂÒÂë
 language message zh_CN.UTF-8
 
-"å½“åˆæ˜¯ç”¨æ¥è§£å†³batä¹±ç é—®é¢˜çš„ï¼Œä¹Ÿä¸çŸ¥é“æ˜¯å¦æœ‰æ•ˆã€‚åŽæ¥å‘çŽ°å¦‚æžœä¸åŠ ä¸Šå®ƒï¼Œæ‰“å¼€æœ‰ä¸­æ–‡çš„æ–‡æœ¬æ—¶æ˜¾ç¤ºä¼šä¹±ç 
+"µ±³õÊÇÓÃÀ´½â¾öbatÂÒÂëÎÊÌâµÄ£¬Ò²²»ÖªµÀÊÇ·ñÓÐÐ§¡£ºóÀ´·¢ÏÖÈç¹û²»¼ÓÉÏËü£¬´ò¿ªÓÐÖÐÎÄµÄÎÄ±¾Ê±ÏÔÊ¾»áÂÒÂë
 "set fenc=chinese
 
-"ä¹Ÿä¸çŸ¥é“ä¸ºä»€ä¹ˆè¦åŠ å®ƒï¼Œå¯è¿˜æ˜¯åŠ ä¸Šäº†ã€‚fencsï¼šæ‰“å¼€æ–‡ä»¶æ—¶çŒœæµ‹ç¼–ç æ ¼å¼çš„åˆ—è¡¨
+"Ò²²»ÖªµÀÎªÊ²Ã´Òª¼ÓËü£¬¿É»¹ÊÇ¼ÓÉÏÁË¡£fencs£º´ò¿ªÎÄ¼þÊ±²Â²â±àÂë¸ñÊ½µÄÁÐ±í
 set fileencodings=utf-8,gb2312,ucs-bom,euc-cn,euc-tw,gb18030,gbk,cp936
 
-" ######### æ‹¬å·åŒ¹é… ######### "
+" ######### À¨ºÅÆ¥Åä ######### "
 
-" è®¾ç½®æ‹¬å·ã€å¼•å·è‡ªåŠ¨å®Œæˆ
+" ÉèÖÃÀ¨ºÅ¡¢ÒýºÅ×Ô¶¯Íê³É
 :inoremap ( ()<ESC>i
 
 :inoremap ) <c-r>=ClosePair(')')<CR>
 
-"æ³¨é‡ŠæŽ‰åŽŸå› ï¼Œä¸ºäº†è®¾ç½®Voomçš„å¿«æ·é”®[1 [2 [3
+"×¢ÊÍµôÔ­Òò£¬ÎªÁËÉèÖÃVoomµÄ¿ì½Ý¼ü[1 [2 [3
 ":inoremap { {}<ESC>i
 
 :inoremap } <c-r>=ClosePair('}')<CR>
@@ -176,50 +177,50 @@ function ClosePair(char)
 	endif
 endf
 
-" çª—å£å¯åŠ¨æ—¶è‡ªåŠ¨æœ€å¤§åŒ–
+" ´°¿ÚÆô¶¯Ê±×Ô¶¯×î´ó»¯
 au GUIEnter * simalt ~x
 
-"è®¾ç½®è‡ªåŠ¨ç¼©è¿›
+"ÉèÖÃ×Ô¶¯Ëõ½ø
 set ai!  
 
-"æ¸è¿‘å¼åŒ¹é…incremental search å³æœç´¢æ—¶ åˆ™ä¼šè‡ªåŠ¨æŠŠå…‰æ ‡å®šä½åˆ°åŒ¹é…å¤„"
+"½¥½üÊ½Æ¥Åäincremental search ¼´ËÑË÷Ê± Ôò»á×Ô¶¯°Ñ¹â±ê¶¨Î»µ½Æ¥Åä´¦"
 set incsearch
 
-"ä¸é«˜äº®æ˜¾ç¤ºæœç´¢åˆ°å­—ç¬¦"
+"²»¸ßÁÁÏÔÊ¾ËÑË÷µ½×Ö·û"
 "set nohlsearch
-"æŒ‰ä¸‹escé”®åŽå–æ¶ˆæœç´¢é«˜äº®
+"°´ÏÂesc¼üºóÈ¡ÏûËÑË÷¸ßÁÁ
 nnoremap <esc> : noh<return><esc>
 
-"çªå‡ºæ˜¾ç¤ºå½“å‰è¡Œ
+"Í»³öÏÔÊ¾µ±Ç°ÐÐ
 set cursorline 
 
-"è®¾ç½®å‘½ä»¤è¡Œçš„è¡Œæ•°"
+"ÉèÖÃÃüÁîÐÐµÄÐÐÊý"
 set cmdheight=2 
 
 
-"æ˜¾ç¤ºç‰¹æ®Šå­—ç¬¦"
+"ÏÔÊ¾ÌØÊâ×Ö·û"
 "set list
 
-"è®¾ç½®tabé”®å®½åº¦
+"ÉèÖÃtab¼ü¿í¶È
 set tabstop=4
 
-"è®¾ç½®æ¯å±‚ç¼©è¿›æ•°
+"ÉèÖÃÃ¿²ãËõ½øÊý
 set shiftwidth=4
 
 
-"è®¾ç½®å°é”®ç›˜æ•°å­—é”®1å’Œå¤§é”®ç›˜1 æ˜ å°„åˆ°  è·³è½¬åˆ°è¡Œæœ«
+"ÉèÖÃÐ¡¼üÅÌÊý×Ö¼ü1ºÍ´ó¼üÅÌ1 Ó³Éäµ½  Ìø×ªµ½ÐÐÄ©
 "map <k1> : <esc>$
-"map 1 : <esc>$  "ç”±äºŽä¸¤ä¸ª1éƒ½è®¾ç½®æˆå¿«æ·é”®åœ¨æ­£å¸¸æ¨¡å¼ä¸‹å°†ä¸èƒ½è¾“å…¥æ•°å­—1
+"map 1 : <esc>$  "ÓÉÓÚÁ½¸ö1¶¼ÉèÖÃ³É¿ì½Ý¼üÔÚÕý³£Ä£Ê½ÏÂ½«²»ÄÜÊäÈëÊý×Ö1
 
-"è®¾ç½®è¿è¡Œæ‰¹å¤„ç†æ–‡ä»¶çš„å¿«æ·é”®ï¼Œç”¨åœ¨ç”¨vimwikiå†™å®Œlogå¹¶å¯¼å‡ºhtmlåŽå¿«é€Ÿå¤åˆ¶htmlåˆ°ç›¸åº”ç›®å½•ä¸‹ cè¡¨ç¤ºcopy
+"ÉèÖÃÔËÐÐÅú´¦ÀíÎÄ¼þµÄ¿ì½Ý¼ü£¬ÓÃÔÚÓÃvimwikiÐ´Íêlog²¢µ¼³öhtmlºó¿ìËÙ¸´ÖÆhtmlµ½ÏàÓ¦Ä¿Â¼ÏÂ c±íÊ¾copy
 map mc	: <esc>:!..\..\copyNext.bat
 map mc2	: <esc>:!D:\shortcut\commonTools\copyLog\copyLog.bat
 
-"è®¾ç½®åˆ‡æ¢åˆ°wikiç›®å½•ä¸‹çš„å¿«æ·é”®ï¼Œä¸»è¦æ˜¯é…åˆvimgrepå‘½ä»¤ä½¿ç”¨ï¼Œå› ä¸ºåœ¨windowsä¸‹æ‰“å¼€vimæ—¶å½“å‰è·¯å¾„åœ¨å…¶å¿«æ·æ–¹å¼æ‰€åœ¨è·¯å¾„ä¸‹ï¼Œå¦‚æˆ‘çš„åœ¨d\shortcut ä¸‹ dä»£è¡¨ cd è¿›å…¥è·¯å¾„çš„æ„æ€
+"ÉèÖÃÇÐ»»µ½wikiÄ¿Â¼ÏÂµÄ¿ì½Ý¼ü£¬Ö÷ÒªÊÇÅäºÏvimgrepÃüÁîÊ¹ÓÃ£¬ÒòÎªÔÚwindowsÏÂ´ò¿ªvimÊ±µ±Ç°Â·¾¶ÔÚÆä¿ì½Ý·½Ê½ËùÔÚÂ·¾¶ÏÂ£¬ÈçÎÒµÄÔÚd\shortcut ÏÂ d´ú±í cd ½øÈëÂ·¾¶µÄÒâË¼
 map md : <esc>: cd E:\ApplicationData\netDisk\klive\wiki
 
-"å¿«é€Ÿæ‰“å¼€å½“æ–‡ä»¶æ‰€ä»¥è·¯å¾„ä¸‹çš„å…¶å®ƒæ–‡ä»¶ æ¥è‡ªäºŽVimtips
-"åœ¨æ­£å¸¸æ¨¡å¼ä¸‹ä½¿ç”¨ ,e ç„¶åŽç”¨tab åˆ‡æ¢æ–‡ä»¶ã€‚å½“ç„¶å¯ä»¥å…ˆè¾“å…¥å‡ ä¸ªå­—ç¬¦å†tabå¯ä»¥å¿«é€Ÿå®šä½åˆ°æ–‡ä»¶
+"¿ìËÙ´ò¿ªµ±ÎÄ¼þËùÒÔÂ·¾¶ÏÂµÄÆäËüÎÄ¼þ À´×ÔÓÚVimtips
+"ÔÚÕý³£Ä£Ê½ÏÂÊ¹ÓÃ ,e È»ºóÓÃtab ÇÐ»»ÎÄ¼þ¡£µ±È»¿ÉÒÔÏÈÊäÈë¼¸¸ö×Ö·ûÔÙtab¿ÉÒÔ¿ìËÙ¶¨Î»µ½ÎÄ¼þ
 if has("unix")
     map ,e :e <C-R>=expand("%:p:h") . "/" <CR>
 else
@@ -227,29 +228,29 @@ else
 endif
 
 
-"vimä¸äº§ç”Ÿå¤‡ä»½æ–‡ä»¶ï¼Œå¤‡ä»½æ–‡ä»¶å­˜æ”¾åœ¨~/vimtmp ç›®å½•ä¸‹ã€‚è‹¥æ˜¯windowsç³»ç»Ÿï¼Œåˆ™~ç›®å½•æŒ‡çš„æ˜¯C:\Documents and Settings\ç”¨æˆ·å
+"vim²»²úÉú±¸·ÝÎÄ¼þ£¬±¸·ÝÎÄ¼þ´æ·ÅÔÚ~/vimtmp Ä¿Â¼ÏÂ¡£ÈôÊÇwindowsÏµÍ³£¬Ôò~Ä¿Â¼Ö¸µÄÊÇC:\Documents and Settings\ÓÃ»§Ãû
 set backup
 set writebackup
 set backupdir=~/vimtmp 
 
-"è‡ªåŠ¨è¡¥å…¨ä¹‹å­—å…¸è¡¥å…¨ Ctrl+X Ctrl+K 
-"åœ¨dict.txtæ–‡ä»¶ä¸­å¯ä»¥è‡ªå®šä¹‰è‡ªåŠ¨è¡¥å…¨çš„å•è¯ å¦‚<red> <modify>
+"×Ô¶¯²¹È«Ö®×Öµä²¹È« Ctrl+X Ctrl+K 
+"ÔÚdict.txtÎÄ¼þÖÐ¿ÉÒÔ×Ô¶¨Òå×Ô¶¯²¹È«µÄµ¥´Ê Èç<red> <modify>
 set dict=E:\ApplicationData\netDisk\klive\applicationData\vim\dict.txt
 
-" é‡æ–°è½½å…¥_vimrc
+" ÖØÐÂÔØÈë_vimrc
 :nmap <Leader>s :source $MYVIMRC
 
-" å¿«é€Ÿæ‰“å¼€_vimrc, ä¹Ÿå¯ä½¿ç”¨:tabedit $MYVIMRC
+" ¿ìËÙ´ò¿ª_vimrc, Ò²¿ÉÊ¹ÓÃ:tabedit $MYVIMRC
 :nmap <Leader>v :e $MYVIMRC<cr>
 
 
-"é»˜è®¤åˆ†å‰²çª—å£çš„åˆ‡æ¢éœ€è¦ Ctrl+w ä¸Žå…¶ä»–æŒ‰é”®é…åˆä½¿ç”¨ï¼Œä¸‹é¢çš„é…ç½®æˆ‘è§‰å¾—æ›´åŠ æ–¹ä¾¿ä¸€äº›ï¼š
+"Ä¬ÈÏ·Ö¸î´°¿ÚµÄÇÐ»»ÐèÒª Ctrl+w ÓëÆäËû°´¼üÅäºÏÊ¹ÓÃ£¬ÏÂÃæµÄÅäÖÃÎÒ¾õµÃ¸ü¼Ó·½±ãÒ»Ð©£º
 map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
-"é»˜è®¤éšè—èœå•æ å’Œå·¥å…·æ ï¼Œå¯ä»¥é€šè¿‡ <F2> åˆ‡æ¢æ˜¾ç¤ºå’Œéšè—ã€‚
+"Ä¬ÈÏÒþ²Ø²Ëµ¥À¸ºÍ¹¤¾ßÀ¸£¬¿ÉÒÔÍ¨¹ý <F2> ÇÐ»»ÏÔÊ¾ºÍÒþ²Ø¡£
 
 " @see http://www.linuxeden.com/html/softuse/20080331/52958.html  
 
@@ -264,26 +265,26 @@ map <silent> <F2> :if &guioptions =~# 'T' <Bar>
         \set guioptions+=m <Bar>
     \endif<CR>
 
-"æ˜ å°„F11ä¸ºå…¨å±å¿«æ·é”®ï¼Œéœ€è¦å®‰è£…gvimfullscreen_win32.zipæ‰å¯ä»¥
+"Ó³ÉäF11ÎªÈ«ÆÁ¿ì½Ý¼ü£¬ÐèÒª°²×°gvimfullscreen_win32.zip²Å¿ÉÒÔ
 map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR> 
 
-"pentadacty æœ¬è‰²è®¾ç½®ã€€è¿™æ ·ä»¥åŽæ‰“å¼€_pentadactyrcyå°±æœ‰è¯­æ³•ç€è‰²äº†
+"pentadacty ±¾É«ÉèÖÃ¡¡ÕâÑùÒÔºó´ò¿ª_pentadactyrcy¾ÍÓÐÓï·¨×ÅÉ«ÁË
 au BufRead,BufNewFile _pentadactylrc set filetype=pentadactyl
 
 
-"append global å…¨å±€è®¾ç½®åœ¨ä¸Šé¢æ·»åŠ 
+"append global È«¾ÖÉèÖÃÔÚÉÏÃæÌí¼Ó
 
-"###############Vimwikiç›¸å…³è®¾ç½®  ########################
-"ä»¥ä¸‹å†…å®¹åŠ äºŽ2011å¹´8æœˆ11æ—¥18æ—¶40åˆ†54ç§’
+"###############VimwikiÏà¹ØÉèÖÃ  ########################
+"ÒÔÏÂÄÚÈÝ¼ÓÓÚ2011Äê8ÔÂ11ÈÕ18Ê±40·Ö54Ãë
 
-"å®‰è£…å®˜æ–¹æ–‡æ¡£çš„è¦æ±‚ï¼Œéœ€è¦ç¡®ä¿ vimrc æ–‡ä»¶ä¸­æœ‰å¦‚ä¸‹çš„è®¾ç½® ä¹Ÿä¸çŸ¥é“ä¸ºä»€ä¹ˆ
+"°²×°¹Ù·½ÎÄµµµÄÒªÇó£¬ÐèÒªÈ·±£ vimrc ÎÄ¼þÖÐÓÐÈçÏÂµÄÉèÖÃ Ò²²»ÖªµÀÎªÊ²Ã´
 set nocompatible
-filetype plugin on "é’ˆå¯¹ä¸åŒæ–‡ä»¶ç±»åž‹çš„ç›¸åº”plugin, ä½ å¯ä»¥ä½¿ç”¨è¯¥å‘½ä»¤å¼€å¯å¯¹å®ƒçš„åº”ç”¨
+filetype plugin on "Õë¶Ô²»Í¬ÎÄ¼þÀàÐÍµÄÏàÓ¦plugin, Äã¿ÉÒÔÊ¹ÓÃ¸ÃÃüÁî¿ªÆô¶ÔËüµÄÓ¦ÓÃ
 syntax on
 
-"let $VIMHOME = 'E:\ç½‘ç›˜\dBank\My DBank\wiki'
+"let $VIMHOME = 'E:\ÍøÅÌ\dBank\My DBank\wiki'
 let $VIMHOME = 'E:\ApplicationData\netDisk\klive\wiki'
-"è®¾ç½®wikiè·¯å¾„
+"ÉèÖÃwikiÂ·¾¶
 let g:vimwiki_list = [
 	\{
 		\'path': $VIMHOME.'/wiki1',
@@ -335,8 +336,8 @@ let g:vimwiki_list = [
 		\ 'nested_syntaxes': {'C': 'c'},
 	\},
 \]
-"è®¾ç½®vimwikiå„æ ‡é¢˜çš„é¢œè‰²ï¼Œæ ‡é¢˜1-æ ‡é¢˜6åˆ†åˆ«æ˜¯çº¢ç»¿è“ç²‰é’é»„ï¼Œæ³¨æ„è¿™æ˜¯åœ¨vimä¸­æ˜¾ç¤ºçš„é¢œè‰²ï¼Œä¸æ˜¯åœ¨ç½‘é¡µä¸­æ˜¾ç¤ºçš„é¢œè‰²ã€‚
-"é…ç½®é¢œè‰²çš„ç›®çš„ï¼šæ˜¯ä¸ºäº†é…åˆVoomã€‚æˆ‘ä»¥å‰ä¸ºVoomè‡ªå®šä¹‰äº†ä¸ªé…è‰²çš„é…ç½®æ–‡ä»¶åœ¨$Vimhome/vimfiles/syntax/Voomtxt.wiki {çŽ°åœ¨å®‰è£…äº†pathegonæ’ä»¶ï¼Œæ‰€ä»¥è¯¥æ–‡ä»¶è·¯å¾„ä¸º$Vimhome/vimfiles/bundle/Voom/syntax å¦‚æžœæ²¡æœ‰syntaxç›®å½•çš„è¯ï¼Œè‡ªå·±æ–°å»º} é‚£é‡Œæ›¾ç»ä¹Ÿä¸ºvimwikié…ç½®è¿‡é¢œè‰²ï¼ˆvimwikié»˜è®¤çš„é…è‰²ä¸æ˜¯è¿™ä¸ªæ ·å­ï¼‰ï¼Œä½¿ç”¨æ—¶éœ€è¦æ¯æ¬¡è¾“å…¥å‘½ä»¤ set ft=Voomtxtï¼Œæ‰èƒ½çœ‹åˆ°é…è‰²çš„æ•ˆæžœï¼Œä½¿ç”¨èµ·æ¥æ¯”è¾ƒéº»çƒ¦ã€‚ä½†æˆ‘ä¹Ÿä¸æƒ³æŠŠvoomtxtå…³äºŽvimwikiçš„é…è‰²è®¾ç½®åˆ é™¤æŽ‰ï¼Œä¸ºäº†ä¿æŠ¤è‡ªå·±çš„åŠ³åŠ¨æˆæžœï¼Œæ‰€ä»¥åœ¨vimwikiä¸‹ä¹Ÿè®¾ç½®äº†ä¸Žé‚£é‡Œç›¸åŒçš„é¢œè‰²ã€‚å³æœ¬æ¥ä½¿ç”¨çš„æ˜¯Vimwikié»˜è®¤çš„é…è‰²æ–¹æ¡ˆï¼Œä½†åŽæ¥åœ¨Voomtxt.wikiä¸­ä¸ºwimwikié…ç½®äº†é¢œè‰²ï¼Œä½†ä½¿ç”¨voomtxtåˆä¸æ˜¯å¾ˆæ–¹ä¾¿ï¼Œæ‰€ä»¥ä¸ºäº†å»¶ç»­voomtxtçš„é…è‰²æ–¹æ¡ˆï¼Œè¿™é‡ŒæŠŠvimwikiçš„é…è‰²æ–¹æ¡ˆè®¾ç½®æˆä¸Žvoomtxtä¸€æ ·çš„é…è‰²æ–¹æ¡ˆã€‚
+"ÉèÖÃvimwiki¸÷±êÌâµÄÑÕÉ«£¬±êÌâ1-±êÌâ6·Ö±ðÊÇºìÂÌÀ¶·ÛÇà»Æ£¬×¢ÒâÕâÊÇÔÚvimÖÐÏÔÊ¾µÄÑÕÉ«£¬²»ÊÇÔÚÍøÒ³ÖÐÏÔÊ¾µÄÑÕÉ«¡£
+"ÅäÖÃÑÕÉ«µÄÄ¿µÄ£ºÊÇÎªÁËÅäºÏVoom¡£ÎÒÒÔÇ°ÎªVoom×Ô¶¨ÒåÁË¸öÅäÉ«µÄÅäÖÃÎÄ¼þÔÚ$Vimhome/vimfiles/syntax/Voomtxt.wiki {ÏÖÔÚ°²×°ÁËpathegon²å¼þ£¬ËùÒÔ¸ÃÎÄ¼þÂ·¾¶Îª$Vimhome/vimfiles/bundle/Voom/syntax Èç¹ûÃ»ÓÐsyntaxÄ¿Â¼µÄ»°£¬×Ô¼ºÐÂ½¨} ÄÇÀïÔø¾­Ò²ÎªvimwikiÅäÖÃ¹ýÑÕÉ«£¨vimwikiÄ¬ÈÏµÄÅäÉ«²»ÊÇÕâ¸öÑù×Ó£©£¬Ê¹ÓÃÊ±ÐèÒªÃ¿´ÎÊäÈëÃüÁî set ft=Voomtxt£¬²ÅÄÜ¿´µ½ÅäÉ«µÄÐ§¹û£¬Ê¹ÓÃÆðÀ´±È½ÏÂé·³¡£µ«ÎÒÒ²²»Ïë°Ñvoomtxt¹ØÓÚvimwikiµÄÅäÉ«ÉèÖÃÉ¾³ýµô£¬ÎªÁË±£»¤×Ô¼ºµÄÀÍ¶¯³É¹û£¬ËùÒÔÔÚvimwikiÏÂÒ²ÉèÖÃÁËÓëÄÇÀïÏàÍ¬µÄÑÕÉ«¡£¼´±¾À´Ê¹ÓÃµÄÊÇVimwikiÄ¬ÈÏµÄÅäÉ«·½°¸£¬µ«ºóÀ´ÔÚVoomtxt.wikiÖÐÎªwimwikiÅäÖÃÁËÑÕÉ«£¬µ«Ê¹ÓÃvoomtxtÓÖ²»ÊÇºÜ·½±ã£¬ËùÒÔÎªÁËÑÓÐøvoomtxtµÄÅäÉ«·½°¸£¬ÕâÀï°ÑvimwikiµÄÅäÉ«·½°¸ÉèÖÃ³ÉÓëvoomtxtÒ»ÑùµÄÅäÉ«·½°¸¡£
 :hi VimwikiHeader1 guifg=#FF0000
 :hi VimwikiHeader2 guifg=#00FF00
 :hi VimwikiHeader3 guifg=#0000FF
@@ -345,97 +346,97 @@ let g:vimwiki_list = [
 :hi VimwikiHeader6 guifg=#FFFF00
 
 
-"è®¾ç½®åœ¨vimwikiä¸­å¯ä»¥ä½¿ç”¨çš„htmlæ ‡ç­¾
+"ÉèÖÃÔÚvimwikiÖÐ¿ÉÒÔÊ¹ÓÃµÄhtml±êÇ©
 let g:vimwiki_valid_html_tags='b,i,s,u,small,sub,sup,kbd,br,hr,div,del,code,red,green,modify,center,left,right,h4,h5,h6,a,small,pre,ol'
 
-"è®¾ç½®é»˜è®¤æ‰“å¼€htmlçš„æµè§ˆå™¨ã€‚å½“ç”¨å‘½ä»¤\whh æ—¶ä¼šè‡ªåŠ¨å°†å½“å‰wikiè½¬æ¢æˆhtmlï¼Œå¹¶ç”¨æµè§ˆå™¨æ‰“å¼€html
+"ÉèÖÃÄ¬ÈÏ´ò¿ªhtmlµÄä¯ÀÀÆ÷¡£µ±ÓÃÃüÁî\whh Ê±»á×Ô¶¯½«µ±Ç°wiki×ª»»³Éhtml£¬²¢ÓÃä¯ÀÀÆ÷´ò¿ªhtml
 let g:vimwiki_browsers=['D:\Program Files\Mozilla Firefox\firefox.exe']
-" ä½¿ç”¨é¼ æ ‡æ˜ å°„  
+" Ê¹ÓÃÊó±êÓ³Éä  
 let g:vimwiki_use_mouse = 1
 
-" æ˜¯å¦å°†é©¼å³°å¼è¯ç»„ä½œä¸º Wiki è¯æ¡ 1æ˜¯ 0å¦ é»˜è®¤æ˜¯1
+" ÊÇ·ñ½«ÍÕ·åÊ½´Ê×é×÷Îª Wiki ´ÊÌõ 1ÊÇ 0·ñ Ä¬ÈÏÊÇ1
 let g:vimwiki_camel_case = 0
 
-" æ ‡è®°ä¸ºå®Œæˆçš„ checkist é¡¹ç›®ä¼šæœ‰ç‰¹åˆ«çš„é¢œè‰² 
+" ±ê¼ÇÎªÍê³ÉµÄ checkist ÏîÄ¿»áÓÐÌØ±ðµÄÑÕÉ« 
 let g:vimwiki_hl_cb_checked = 1 
 
-" F4å½“å‰é¡µç”ŸæˆHTMLï¼ŒShift+F4 å…¨éƒ¨é¡µç”ŸæˆHTML 
+" F4µ±Ç°Ò³Éú³ÉHTML£¬Shift+F4 È«²¿Ò³Éú³ÉHTML 
 map <S-F4> :VimwikiAll2HTML<cr> 
 map <F4> :Vimwiki2HTML<cr> 
 
-"è®¾ç½®åˆ‡æ¢ä»»åŠ¡åˆ—è¡¨çš„å¿«æ·é”®
+"ÉèÖÃÇÐ»»ÈÎÎñÁÐ±íµÄ¿ì½Ý¼ü
 map <leader>tt <Plug>VimwikiToggleListItem
 
-" åŠ ä¸€ä¸ª vimwiki èœå•é¡¹
+" ¼ÓÒ»¸ö vimwiki ²Ëµ¥Ïî
 let g:vimwiki_menu = 'Vimwiki' 
 
-" æ˜¯å¦å¼€å¯æŒ‰è¯­æ³•æŠ˜å  ä¼šè®©æ–‡ä»¶æ¯”è¾ƒæ…¢ 
+" ÊÇ·ñ¿ªÆô°´Óï·¨ÕÛµþ »áÈÃÎÄ¼þ±È½ÏÂý 
 let g:vimwiki_folding = 1 
 
-"å¯ç”¨å­åˆ—è¡¨é¡¹æŠ˜å åŠŸèƒ½ï¼ŒçŽ°åœ¨ä¹Ÿæ²¡çœ‹å‡ºæ¥æœ‰ä»€ä¹ˆæ•ˆæžœ
+"ÆôÓÃ×ÓÁÐ±íÏîÕÛµþ¹¦ÄÜ£¬ÏÖÔÚÒ²Ã»¿´³öÀ´ÓÐÊ²Ã´Ð§¹û
 let g:vimwiki_fold_lists = 1
 
-"è¾“å‡ºçš„htmlæ˜¯å¦è‡ªåŠ¨ç¼–å·ã€‚ é»˜è®¤ä¸º0ã€‚ 0 å…³é—­, 1 ä»Žä¸€çº§æ ‡é¢˜å¼€å§‹ ,2 ä»ŽäºŒçº§æ ‡é¢˜å¼€å§‹  ä¾æ¬¡ç±»æŽ¨
+"Êä³öµÄhtmlÊÇ·ñ×Ô¶¯±àºÅ¡£ Ä¬ÈÏÎª0¡£ 0 ¹Ø±Õ, 1 ´ÓÒ»¼¶±êÌâ¿ªÊ¼ ,2 ´Ó¶þ¼¶±êÌâ¿ªÊ¼  ÒÀ´ÎÀàÍÆ
 let g:vimwiki_html_header_numbering =1
 
-"åœ¨ä¸€ä¸ªæ²¡æœ‰å¤é€‰æ¡†çš„åˆ—è¡¨é¡¹ç›®ä¸ŠæŒ‰ä¸‹\tt(è‡ªå·±è®¾ç½®çš„çƒ­é”®)åˆ™å¯ä»¥åˆ›å»ºåˆ—è¡¨æ¡†ã€‚é»˜è®¤æ˜¯1
+"ÔÚÒ»¸öÃ»ÓÐ¸´Ñ¡¿òµÄÁÐ±íÏîÄ¿ÉÏ°´ÏÂ\tt(×Ô¼ºÉèÖÃµÄÈÈ¼ü)Ôò¿ÉÒÔ´´½¨ÁÐ±í¿ò¡£Ä¬ÈÏÊÇ1
 let g:vimwiki_auto_checkbox = 1
 
-"ä½¿ç”¨é¢„å…ˆå®šä¹‰çš„é¢œè‰²é«˜äº®ä¸åŒçº§åˆ«çš„æ ‡é¢˜ =Reddish=, ==Greenish==, ===Blueish===
+"Ê¹ÓÃÔ¤ÏÈ¶¨ÒåµÄÑÕÉ«¸ßÁÁ²»Í¬¼¶±ðµÄ±êÌâ =Reddish=, ==Greenish==, ===Blueish===
 let g:vimwiki_hl_headers = 1
 
-"è‡ªåŠ¨æ ¼å¼åŒ–è¡¨æ ¼
+"×Ô¶¯¸ñÊ½»¯±í¸ñ
 let g:vimwiki_table_auto_fmt = 1
 
-"è®¾ç½®vimwikiä¸‹æŸ¥æ‰¾çš„å¿«æ·é”® sä»£è¡¨search
+"ÉèÖÃvimwikiÏÂ²éÕÒµÄ¿ì½Ý¼ü s´ú±ísearch
 map ms : <esc>:VimwikiSearch
 
-"è®¾ç½®vimwikiæŸ¥æ‰¾åŽæµè§ˆçš„å¿«æ·é”® å¦‚mnä»£è¡¨æ˜¾ç¤ºä¸‹ä¸€ä¸ªåŒ¹é…é¡¹ mpä»£è¡¨æ˜¾ç¤ºå‰ä¸€ä¸ªåŒ¹é…é¡¹ lmä»£è¡¨æ˜¾ç¤ºæ‰€æœ‰åŒ¹é…é¡¹.åŽŸæ¥è®¾ç½®çš„æ˜¯ln lp loã€€åŽæ¥å‘çŽ°læ˜¯å…‰æ ‡å‘å³ç§»åŠ¨çš„é”®ï¼Œæ‰€ä»¥åˆæ”¹æˆmäº†
+"ÉèÖÃvimwiki²éÕÒºóä¯ÀÀµÄ¿ì½Ý¼ü Èçmn´ú±íÏÔÊ¾ÏÂÒ»¸öÆ¥ÅäÏî mp´ú±íÏÔÊ¾Ç°Ò»¸öÆ¥ÅäÏî lm´ú±íÏÔÊ¾ËùÓÐÆ¥ÅäÏî.Ô­À´ÉèÖÃµÄÊÇln lp lo¡¡ºóÀ´·¢ÏÖlÊÇ¹â±êÏòÓÒÒÆ¶¯µÄ¼ü£¬ËùÒÔÓÖ¸Ä³ÉmÁË
 map mn : <esc>:lnext <Return>
 map mp : <esc>:lprevious <Return>
 map mo : <esc>:lopen <Return>
 
-"append vimwiki vimwiki è®¾ç½®åœ¨ä¸Šé¢æ·»åŠ 
+"append vimwiki vimwiki ÉèÖÃÔÚÉÏÃæÌí¼Ó
 
 
-" ########calenderçš„è®¾ç½®##################
-" create:2011å¹´10æœˆ24æ—¥
+" ########calenderµÄÉèÖÃ##################
+" create:2011Äê10ÔÂ24ÈÕ
 
 
-"è®¾ç½®æ—¥è®°è·¯å¾„çš„ï¼Œä½†æ˜¯ä¸çµï¼Œå¯èƒ½æ˜¯å› ä¸ºvimwikiçš„åŽŸå› 
+"ÉèÖÃÈÕ¼ÇÂ·¾¶µÄ£¬µ«ÊÇ²»Áé£¬¿ÉÄÜÊÇÒòÎªvimwikiµÄÔ­Òò
 "let g:calendar_diary = "E:/diary"
 
-"å®šä¹‰çƒ­é”®ï¼Œå¿«é€Ÿè°ƒå‡ºCalendaræ’ä»¶
+"¶¨ÒåÈÈ¼ü£¬¿ìËÙµ÷³öCalendar²å¼þ
 map ca :Calendar<cr>
 
-"ä»¥æ˜ŸæœŸä¸€ä¸ºå¼€å§‹ 
+"ÒÔÐÇÆÚÒ»Îª¿ªÊ¼ 
 let g:calendar_monday = 1
 
-"ä½¿*åœ¨æ•°å­—å·¦é¢.å¦‚æžœæƒ³åœ¨å³é¢ï¼Œåˆ™right
+"Ê¹*ÔÚÊý×Ö×óÃæ.Èç¹ûÏëÔÚÓÒÃæ£¬Ôòright
 let g:calendar_mark = 'left' 
 
-"å¯ä»¥è®©*ä¸Žæ•°å­—é çš„æ›´è¿‘ä¸€äº›
+"¿ÉÒÔÈÃ*ÓëÊý×Ö¿¿µÄ¸ü½üÒ»Ð©
 let g:calendar_mark = 'left-fit'
 
-"append calendar calendarè®¾ç½®åœ¨ä¸Šé¢æ·»åŠ 
+"append calendar calendarÉèÖÃÔÚÉÏÃæÌí¼Ó
 
-"############Voomçš„è®¾ç½®################
-"create:2011å¹´12æœˆ19æ—¥
+"############VoomµÄÉèÖÃ################
+"create:2011Äê12ÔÂ19ÈÕ
 
-"è®¾ç½®TreeåŒºçš„å®½åº¦
+"ÉèÖÃTreeÇøµÄ¿í¶È
 let g:voom_tree_width=20
 
-"è®¾ç½®ä¸ºvimwikiå¿«é€Ÿå‡ºçŽ°Voomç•Œé¢çš„å¿«æ·é”®,ä¸€ä¸ªæ˜¯vimwikiçš„ ä¸€ä¸ªæ˜¯ä¸€èˆ¬çš„
+"ÉèÖÃÎªvimwiki¿ìËÙ³öÏÖVoom½çÃæµÄ¿ì½Ý¼ü,Ò»¸öÊÇvimwikiµÄ Ò»¸öÊÇÒ»°ãµÄ
 map <LocalLeader><LocalLeader>w :Voom vimwiki<CR>
 nnoremap <LocalLeader><LocalLeader> :Voom<CR>
 
-"è®¾ç½®è¿”å›žé”®ï¼Œé»˜è®¤æ˜¯<Return>é”®ï¼Œå³å›žè½¦é”®ï¼Œä½†åœ¨vimwikiä¸‹ä¼šå†²çªï¼Œæ‰€ä»¥è°ƒæˆäº†è¿™ä¸ªã€‚
+"ÉèÖÃ·µ»Ø¼ü£¬Ä¬ÈÏÊÇ<Return>¼ü£¬¼´»Ø³µ¼ü£¬µ«ÔÚvimwikiÏÂ»á³åÍ»£¬ËùÒÔµ÷³ÉÁËÕâ¸ö¡£
 let g:voom_return_key = '<C-Return>'
 
-"è®¾ç½®è°ƒè½¬é”®ï¼Œå¯ä»¥TreeåŒºä¸ŽbodyåŒºæ¥å›žè·³ï¼Œé»˜è®¤æ˜¯<Tab>é”®ï¼Œç”±äºŽvimwikiçš„åŽŸå› ï¼Œè¿™é‡Œè®¾ç½®äº†<C-Tab>
+"ÉèÖÃµ÷×ª¼ü£¬¿ÉÒÔTreeÇøÓëbodyÇøÀ´»ØÌø£¬Ä¬ÈÏÊÇ<Tab>¼ü£¬ÓÉÓÚvimwikiµÄÔ­Òò£¬ÕâÀïÉèÖÃÁË<C-Tab>
 let g:voom_tab_key = '<C-Tab>'
 
-"è®¾ç½®æ·»åŠ æ ‡é¢˜çš„å¿«æ·é”®
+"ÉèÖÃÌí¼Ó±êÌâµÄ¿ì½Ý¼ü
 imap \[1 <esc>$a {{{1
 map \[1 <esc>$a {{{1
 imap \[2 <esc>$a {{{2
@@ -443,92 +444,92 @@ map \[2 <esc>$a {{{2
 imap \[3 <esc>$a {{{3
 map \[3 <esc>$a {{{3
 
-"åˆ é™¤{{{1 {{{2 {{{3 çš„å¿«æ·é”®
+"É¾³ý{{{1 {{{2 {{{3 µÄ¿ì½Ý¼ü
 map }  <esc>:s/{{{\d//g <CR>
 
 
- "é…ç½®æ ‡é¢˜é¢œè‰²ï¼Œè¯¥é…ç½®æ–‡ä»¶è·¯å¾„ä¸ºï¼š$vimhome/vimfiles/syntax/Voomtxt.vim è¿™é‡Œçš„æ ‡é¢˜æ˜¯æŒ‡vimwikiä¸­çš„æ ‡é¢˜ä»¥åŠVoomä¸­çš„æ ‡
- "è¯¥å‘½ä»¤å¹¶éžVoomä¸­çš„å‘½ä»¤ï¼Œæ˜¯å…¨å±€çš„å‘½ä»¤ï¼Œä½†è®¾ç½®çš„æ•ˆæžœæ˜¯ä¸ºäº†Voomçš„
- "è¯¥è®¾ç½®å¯¹äºŽç›´æŽ¥æ‰“å¼€vimwikiçš„æƒ…å†µå¹¶ä¸èµ·ä½œç”¨ï¼Œéœ€è¦å†åœ¨å‘½ä»¤è¡Œä¸­è¾“å…¥ :set ft=Voomtxt  æ‰ä¼šçœ‹åˆ°ç€è‰²æ•ˆæžœã€‚å½“ç„¶è¿™å¹¶ä¸å½±å“å®žé™…ä½¿ç”¨ã€‚ä½†å¯¹äºŽåªæ‰“å¼€gvimçš„ä½†ä¸æ‰“å¼€vimwikiçš„æƒ…å†µå´æ˜¯æœ‰æ•ˆçš„ï¼Œä½ è¾“å…¥ =1  1æ˜¯ä¼šç€è‰²çš„ã€‚
+ "ÅäÖÃ±êÌâÑÕÉ«£¬¸ÃÅäÖÃÎÄ¼þÂ·¾¶Îª£º$vimhome/vimfiles/syntax/Voomtxt.vim ÕâÀïµÄ±êÌâÊÇÖ¸vimwikiÖÐµÄ±êÌâÒÔ¼°VoomÖÐµÄ±ê
+ "¸ÃÃüÁî²¢·ÇVoomÖÐµÄÃüÁî£¬ÊÇÈ«¾ÖµÄÃüÁî£¬µ«ÉèÖÃµÄÐ§¹ûÊÇÎªÁËVoomµÄ
+ "¸ÃÉèÖÃ¶ÔÓÚÖ±½Ó´ò¿ªvimwikiµÄÇé¿ö²¢²»Æð×÷ÓÃ£¬ÐèÒªÔÙÔÚÃüÁîÐÐÖÐÊäÈë :set ft=Voomtxt  ²Å»á¿´µ½×ÅÉ«Ð§¹û¡£µ±È»Õâ²¢²»Ó°ÏìÊµ¼ÊÊ¹ÓÃ¡£µ«¶ÔÓÚÖ»´ò¿ªgvimµÄµ«²»´ò¿ªvimwikiµÄÇé¿öÈ´ÊÇÓÐÐ§µÄ£¬ÄãÊäÈë =1  1ÊÇ»á×ÅÉ«µÄ¡£
 set ft=Voomtxt
 
-"è®¾ç½®å…¨å±çš„å¿«æ·é”®
- "é¡»å…‰æ ‡åœ¨ç¼–è¾‘åŒºæ—¶æ–¹å¯æ­£ç¡®ä½¿ç”¨ï¼Œå› ä¸º\\ä¼šåœ¨ç¼–è¾‘åŒºä¸ŽtreeåŒºåˆ‡æ¢ï¼Œå¦‚æžœå½“å‰åœ¨treeåŒºï¼Œåˆ™æ‰§è¡Œä¸‹æ–¹å¿«æ·é”®çš„ç»“æžœæ˜¯å…³æŽ‰ç¼–è¾‘åŒºã€‚
+"ÉèÖÃÈ«ÆÁµÄ¿ì½Ý¼ü
+ "Ðë¹â±êÔÚ±à¼­ÇøÊ±·½¿ÉÕýÈ·Ê¹ÓÃ£¬ÒòÎª\\»áÔÚ±à¼­ÇøÓëtreeÇøÇÐ»»£¬Èç¹ûµ±Ç°ÔÚtreeÇø£¬ÔòÖ´ÐÐÏÂ·½¿ì½Ý¼üµÄ½á¹ûÊÇ¹Øµô±à¼­Çø¡£
 map \f <esc><LocalLeader><LocalLeader>:q<return> 
 
 
-"append Voom  Voomè®¾ç½®åœ¨ä¸Šé¢æ·»åŠ 
+"append Voom  VoomÉèÖÃÔÚÉÏÃæÌí¼Ó
 
-"############Taglistçš„è®¾ç½®################
-"ç”±äºŽTaglistä»¥ctagsä¸ºåŸºç¡€ï¼Œæ‰€ä»¥ä¸‹é¢ä¼šæœ‰äº›å…³äºŽctagsçš„è®¾ç½®
-"create:2012å¹´5æœˆ16æ—¥
+"############TaglistµÄÉèÖÃ################
+"ÓÉÓÚTaglistÒÔctagsÎª»ù´¡£¬ËùÒÔÏÂÃæ»áÓÐÐ©¹ØÓÚctagsµÄÉèÖÃ
+"create:2012Äê5ÔÂ16ÈÕ
 
-"æ˜ å°„è‡ªåŠ¨ç”Ÿæˆtagsæ–‡ä»¶çš„å¿«æ·é”®
+"Ó³Éä×Ô¶¯Éú³ÉtagsÎÄ¼þµÄ¿ì½Ý¼ü
 "@see http://blog.csdn.net/bokee/article/details/6633193
 map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR> 
 
-"è¿™ä¸¤é¡¹ä¹Ÿä¸çŸ¥é“ä»€ä¹ˆæ„æ€ï¼Œç½‘ä¸Šè¯´çš„ï¼Œä¹Ÿå°±è¿™æ ·è®¾äº†ã€‚
+"ÕâÁ½ÏîÒ²²»ÖªµÀÊ²Ã´ÒâË¼£¬ÍøÉÏËµµÄ£¬Ò²¾ÍÕâÑùÉèÁË¡£
 set tags=tags;
 set autochdir
 
-"è®¾ç½®ctags.exeçš„è·¯å¾„ï¼Œå½“ç„¶ä¹Ÿå¯ç›´æŽ¥åŠ åˆ°ç³»ç»Ÿçš„çŽ¯å¢ƒå˜é‡ä¸­ï¼Œè¿™é‡Œå°±ä¸å†è®¾ç½®äº†ã€‚æœ¬æ¥æƒ³è®¾ç½®åœ¨vimç›¸å…³ç›®å½•ä¸‹ï¼Œä½†å› ä¸ºprogramæœ‰ç©ºæ ¼æ²¡æœ‰æˆåŠŸï¼Œæ‰€ä»¥å°±å¦è®¾äº†ä¸€ä¸ªæ²¡æœ‰ç©ºæ ¼çš„è·¯å¾„ã€‚
-"æ³¨æ„ä¸‹æ–¹è·¯å¾„æ˜¯/ è€Œä¸æ˜¯\ windowsè·¯å¾„åˆ†éš”ç¬¦ç”¨\è¡¨ç¤ºã€‚æˆ–è¦ç”¨\åˆ™åº”è¯¥ç”¨ä¸¤ä¸ª\ å³\\
+"ÉèÖÃctags.exeµÄÂ·¾¶£¬µ±È»Ò²¿ÉÖ±½Ó¼Óµ½ÏµÍ³µÄ»·¾³±äÁ¿ÖÐ£¬ÕâÀï¾Í²»ÔÙÉèÖÃÁË¡£±¾À´ÏëÉèÖÃÔÚvimÏà¹ØÄ¿Â¼ÏÂ£¬µ«ÒòÎªprogramÓÐ¿Õ¸ñÃ»ÓÐ³É¹¦£¬ËùÒÔ¾ÍÁíÉèÁËÒ»¸öÃ»ÓÐ¿Õ¸ñµÄÂ·¾¶¡£
+"×¢ÒâÏÂ·½Â·¾¶ÊÇ/ ¶ø²»ÊÇ\ windowsÂ·¾¶·Ö¸ô·ûÓÃ\±íÊ¾¡£»òÒªÓÃ\ÔòÓ¦¸ÃÓÃÁ½¸ö\ ¼´\\
 "let Tlist_Ctags_Cmd ="D:/Program\ Files/Vim/vimfiles/bundle/ctags/ctags.exe"
 let Tlist_Ctags_Cmd ="E:/ApplicationData/netDisk/klive/application/ctags/ctags.exe"
 
-"ä¸åŒæ—¶æ˜¾ç¤ºå¤šä¸ªæ–‡ä»¶çš„tagï¼Œåªæ˜¾ç¤ºå½“å‰æ–‡ä»¶çš„
+"²»Í¬Ê±ÏÔÊ¾¶à¸öÎÄ¼þµÄtag£¬Ö»ÏÔÊ¾µ±Ç°ÎÄ¼þµÄ
 let Tlist_Show_One_File = 1
 
-"å¦‚æžœtaglistçª—å£æ˜¯æœ€åŽä¸€ä¸ªçª—å£ï¼Œåˆ™é€€å‡ºvim
+"Èç¹ûtaglist´°¿ÚÊÇ×îºóÒ»¸ö´°¿Ú£¬ÔòÍË³övim
 let Tlist_Exit_OnlyWindow = 1
 
-"æ‰“å¼€vimæ—¶è‡ªåŠ¨æ‰“å¼€Tlistçª—å£ï¼Œä½†è¿™ä¸Žæ‰“å¼€æ–‡ä»¶ç±»åž‹æœ‰å…³.å¦‚ï¼šå¦‚æžœæ‰“å¼€çš„æ˜¯cppæ–‡ä»¶ï¼Œåˆ™è‡ªåŠ¨æ‰“å¼€Tlist å¦‚æžœæ‰“å¼€txtæ–‡ä»¶ï¼Œåˆ™ä¸ä¼šè‡ªåŠ¨æ‰“å¼€ã€‚å› ä¸ºæœ‰äº†WinManageræ’ä»¶ï¼Œå¦‚æžœè‡ªåŠ¨å¯åŠ¨Tlistçª—å£ï¼Œå†è¾“å…¥wm åˆ™ä¼šç¨‹ä¸‰æ ï¼Œæ‰€ä»¥è¿™é‡Œå°±å…³é—­äº†
+"´ò¿ªvimÊ±×Ô¶¯´ò¿ªTlist´°¿Ú£¬µ«ÕâÓë´ò¿ªÎÄ¼þÀàÐÍÓÐ¹Ø.Èç£ºÈç¹û´ò¿ªµÄÊÇcppÎÄ¼þ£¬Ôò×Ô¶¯´ò¿ªTlist Èç¹û´ò¿ªtxtÎÄ¼þ£¬Ôò²»»á×Ô¶¯´ò¿ª¡£ÒòÎªÓÐÁËWinManager²å¼þ£¬Èç¹û×Ô¶¯Æô¶¯Tlist´°¿Ú£¬ÔÙÊäÈëwm Ôò»á³ÌÈýÀ¸£¬ËùÒÔÕâÀï¾Í¹Ø±ÕÁË
 "let Tlist_Auto_Open = 1
 
-"æ˜ å°„æ‰“å¼€Tlistçª—å£çš„å¿«æ·é”®
+"Ó³Éä´ò¿ªTlist´°¿ÚµÄ¿ì½Ý¼ü
 nnoremap <silent>  tg :TlistToggle<CR>
 
-"è®¾ç½®Tlistçª—å£å¤§å°
+"ÉèÖÃTlist´°¿Ú´óÐ¡
 let Tlist_WinWidth = 10
 
 
-"append Taglist è®¾ç½®åœ¨ä¸Šé¢æ·»åŠ 
+"append Taglist ÉèÖÃÔÚÉÏÃæÌí¼Ó
 
-"##########winManager è®¾ç½®####################
+"##########winManager ÉèÖÃ####################
 
-"é€šè¿‡WinManageræ’ä»¶æ¥å°†TagListçª—å£å’Œnetrwçª—å£æ•´åˆèµ·æ¥
+"Í¨¹ýWinManager²å¼þÀ´½«TagList´°¿ÚºÍnetrw´°¿ÚÕûºÏÆðÀ´
 let g:winManagerWindowLayout='FileExplorer|TagList'
 
-"æ˜ å°„wmçš„å¿«æ·é”®
+"Ó³ÉäwmµÄ¿ì½Ý¼ü
 nmap wm :WMToggle<cr>
 
-"å½“å³è¾¹çª—å£å…³çª—æ—¶ï¼Œè‡ªåŠ¨å…³é—­wmçª—å£
+"µ±ÓÒ±ß´°¿Ú¹Ø´°Ê±£¬×Ô¶¯¹Ø±Õwm´°¿Ú
 let g:persistentBehaviour=0
 
-"è®¾ç½®wmçª—å£å®½åº¦
+"ÉèÖÃwm´°¿Ú¿í¶È
 let g:winManagerWidth=10
 
 
-"append winmanager è®¾ç½®åœ¨ä¸Šé¢æ·»åŠ 
+"append winmanager ÉèÖÃÔÚÉÏÃæÌí¼Ó
 
 
 
 
-"##########program ç¼–è¯‘ã€è¿è¡Œç¨‹åºè®¾ç½®#############
-"å› quickfixä¸Žç¨‹åºç¼–è¯‘ã€è¿è¡Œå¯†åˆ‡ç›¸å…³ï¼Œæ‰€ä»¥ä¸‹é¢ä¹Ÿæœ‰quickfixçš„é…ç½®
+"##########program ±àÒë¡¢ÔËÐÐ³ÌÐòÉèÖÃ#############
+"ÒòquickfixÓë³ÌÐò±àÒë¡¢ÔËÐÐÃÜÇÐÏà¹Ø£¬ËùÒÔÏÂÃæÒ²ÓÐquickfixµÄÅäÖÃ
 "create 09:59 2012-5-17
 
 
-"ä¸‹é¢è¿™æ®µä»£ç æ¥è‡ªäºŽç½‘ä¸Šã€€VIM-ä¸€é”®ç¼–è¯‘å•ä¸ªæºæ–‡ä»¶ã€€http://www.vimer.cn/2009/10/11.htmlã€‚å½“æŒ‰ä¸‹å¿«æ·é”®æ—¶ä¼šç¼–è¯‘ç¨‹åºå¹¶æ‰“å¼€é”™è¯¯çª—å£ã€‚æœ‰ä¸¤ä¸ªä¸€ä¸ªæ˜¯ç¼–è¯‘å•ä¸ªæ–‡ä»¶ã€€ä¸€ä¸ªæ˜¯ç¼–è¯‘å¤šä¸ªæ–‡ä»¶ã€‚
- "iswindowsæ˜¯å®šä¹‰çš„ä¸€ä¸ªå…¨å±€å˜é‡ã€€ç”¨äºŽåˆ¤æ–­ç³»ç»Ÿæ˜¯linuxè¿˜æ˜¯windows
+"ÏÂÃæÕâ¶Î´úÂëÀ´×ÔÓÚÍøÉÏ¡¡VIM-Ò»¼ü±àÒëµ¥¸öÔ´ÎÄ¼þ¡¡http://www.vimer.cn/2009/10/11.html¡£µ±°´ÏÂ¿ì½Ý¼üÊ±»á±àÒë³ÌÐò²¢´ò¿ª´íÎó´°¿Ú¡£ÓÐÁ½¸öÒ»¸öÊÇ±àÒëµ¥¸öÎÄ¼þ¡¡Ò»¸öÊÇ±àÒë¶à¸öÎÄ¼þ¡£
+ "iswindowsÊÇ¶¨ÒåµÄÒ»¸öÈ«¾Ö±äÁ¿¡¡ÓÃÓÚÅÐ¶ÏÏµÍ³ÊÇlinux»¹ÊÇwindows
 if(has("win32") || has("win95") || has("win64") || has("win16"))
     let g:iswindows=1
 else
     let g:iswindows=0
 endif
 
- "å•ä¸ªæ–‡ä»¶ç¼–è¯‘,å¦‚æžœæœ‰é”™æ˜¾ç¤ºå‡ºé”™çª—å£ã€‚å¦‚æžœæ²¡é”™ç›´æŽ¥è¿è¡Œã€‚
- "2012å¹´5æœˆ18æ—¥ä¿®æ”¹è¿‡ä¸€æ¬¡ åœ¨gccåŽé¢çš„å‚æ•°ä¸ŠåŠ äº†ä¸ª-Wall å¦åˆ™ä¸€å‡ºé”™ä¸èƒ½æ˜¾ç¤ºé”™è¯¯åœ¨å“ªä¸€è¡Œã€‚
+ "µ¥¸öÎÄ¼þ±àÒë,Èç¹ûÓÐ´íÏÔÊ¾³ö´í´°¿Ú¡£Èç¹ûÃ»´íÖ±½ÓÔËÐÐ¡£
+ "2012Äê5ÔÂ18ÈÕÐÞ¸Ä¹ýÒ»´Î ÔÚgccºóÃæµÄ²ÎÊýÉÏ¼ÓÁË¸ö-Wall ·ñÔòÒ»³ö´í²»ÄÜÏÔÊ¾´íÎóÔÚÄÄÒ»ÐÐ¡£
 map <F5> :call Do_OneFileMake()<CR>
 function Do_OneFileMake()
     if expand("%:p:h")!=getcwd()
@@ -592,7 +593,7 @@ function Do_OneFileMake()
     execute "copen 5"
 endfunction
 
-"å¤šæ–‡ä»¶ç¼–è¯‘ï¼Œæ³¨æ„å› ä¸ºæ˜¯å¤šæ–‡ä»¶ç¼–è¯‘ï¼Œæ‰€ä»¥ä¸è¿è¡Œã€‚æœ‰ä¸¤ç§è¿è¡Œæ¨¡å¼ã€‚ä¸€ç§ç›´æŽ¥makeã€€ç¬¬äºŒç§make clean.
+"¶àÎÄ¼þ±àÒë£¬×¢ÒâÒòÎªÊÇ¶àÎÄ¼þ±àÒë£¬ËùÒÔ²»ÔËÐÐ¡£ÓÐÁ½ÖÖÔËÐÐÄ£Ê½¡£Ò»ÖÖÖ±½Ómake¡¡µÚ¶þÖÖmake clean.
 map <F6> :call Do_make()<CR>
 map <c-F6> :silent make clean<CR>
 function Do_make()
@@ -601,90 +602,90 @@ function Do_make()
     execute "copen 5"
 endfunction
 
-"æ˜ å°„å¿«é€Ÿç¼–è¯‘çš„å¿«æ·é”®,æ³¨æ„åªç¼–è¯‘ä¸è¿è¡Œç¨‹åºã€‚<F5>ä¸ä½†ç¼–è¯‘è¿˜è¿è¡Œï¼Œè¿™é‡Œåªç¼–è¯‘ã€‚
+"Ó³Éä¿ìËÙ±àÒëµÄ¿ì½Ý¼ü,×¢ÒâÖ»±àÒë²»ÔËÐÐ³ÌÐò¡£<F5>²»µ«±àÒë»¹ÔËÐÐ£¬ÕâÀïÖ»±àÒë¡£
 autocmd FileType c,cpp  map <buffer> <leader><space> :w<cr>:silent make<cr>:copen 5<cr>
 
-"æ˜ å°„ã€€æ‰“å¼€quickfixçª—å£ã€€çš„å¿«æ·é”®
+"Ó³Éä¡¡´ò¿ªquickfix´°¿Ú¡¡µÄ¿ì½Ý¼ü
 nmap <leader>cw   :cw 5<cr>
 
-"æŠŠCscopeçš„æŸ¥æ‰¾ç»“æžœè¾“å‡ºåˆ°quickfixçª—å£
+"°ÑCscopeµÄ²éÕÒ½á¹ûÊä³öµ½quickfix´°¿Ú
 "@see http://blog.csdn.net/bokee/article/details/6633193 
 set cscopequickfix=s-,c-,d-,i-,t-,e-
 
-"æ˜ å°„ä¸‹ä¸€ä¸ªå’Œå‰ä¸€ä¸ªé”™è¯¯çš„å¿«æ·é”®
+"Ó³ÉäÏÂÒ»¸öºÍÇ°Ò»¸ö´íÎóµÄ¿ì½Ý¼ü
 nmap <F7> :cp<cr>
 nmap <F8> :cn<cr>
-"æ˜ å°„é€€å‡ºquickfixçª—å£çš„å¿«æ·é”®
+"Ó³ÉäÍË³öquickfix´°¿ÚµÄ¿ì½Ý¼ü
 nmap q :close<cr>
 
 
-"æ˜ å°„debugçš„å¿«æ·é”®
+"Ó³ÉädebugµÄ¿ì½Ý¼ü
 map <C-F5> :call Debug()<CR>
-"å®šä¹‰Debugå‡½æ•°ï¼Œç”¨æ¥è°ƒè¯•ç¨‹åº
+"¶¨ÒåDebugº¯Êý£¬ÓÃÀ´µ÷ÊÔ³ÌÐò
 func Debug()
 exec "w"
-"Cç¨‹åº
+"C³ÌÐò
 if &filetype == 'c'
 exec "!gcc % -g -o %<.exe"
 exec "!gdb %<.exe"
 elseif &filetype == 'cpp'
 exec "!gcc % -g -o %<.exe"
 exec "!gdb %<.exe"
-"Javaç¨‹åº
+"Java³ÌÐò
 elseif &filetype == 'java'
 exec "!javac %"
 exec "!jdb %<"
 endif
 endfunc
-"ç»“æŸå®šä¹‰Debug
+"½áÊø¶¨ÒåDebug
 
-"è®¾ç½®makeprg
-"ä¸‹é¢çš„è®¾ç½®åŸºæœ¬æ²¡ç”¨ï¼Œåªæ˜¯æŠŠä»¥å‰å‡ºçŽ°çš„é—®é¢˜æƒ³ä¿å­˜ä¸‹æ¥è€Œå·²ã€‚
-"åœ¨ä½¿ç”¨:makeæ—¶ï¼Œvimä¼šè‡ªåŠ¨è°ƒç”¨â€™makeprgâ€˜é€‰é¡¹å®šä¹‰çš„å‘½ä»¤è¿›è¡Œç¼–è¯‘ï¼Œå¹¶æŠŠç¼–è¯‘è¾“å‡ºé‡å®šå‘åˆ°ä¸€ä¸ªä¸´æ—¶æ–‡ä»¶ä¸­ï¼Œå½“ç¼–è¯‘å‡ºçŽ°é”™è¯¯æ—¶ï¼Œvimä¼šä»Žä¸Šè¿°ä¸´æ—¶æ–‡ä»¶ä¸­è¯»å‡ºé”™è¯¯ä¿¡æ¯
+"ÉèÖÃmakeprg
+"ÏÂÃæµÄÉèÖÃ»ù±¾Ã»ÓÃ£¬Ö»ÊÇ°ÑÒÔÇ°³öÏÖµÄÎÊÌâÏë±£´æÏÂÀ´¶øÒÑ¡£
+"ÔÚÊ¹ÓÃ:makeÊ±£¬vim»á×Ô¶¯µ÷ÓÃ¡¯makeprg¡®Ñ¡Ïî¶¨ÒåµÄÃüÁî½øÐÐ±àÒë£¬²¢°Ñ±àÒëÊä³öÖØ¶¨Ïòµ½Ò»¸öÁÙÊ±ÎÄ¼þÖÐ£¬µ±±àÒë³öÏÖ´íÎóÊ±£¬vim»á´ÓÉÏÊöÁÙÊ±ÎÄ¼þÖÐ¶Á³ö´íÎóÐÅÏ¢
 "set makeprg=make;
-"ä¸‹é¢è¿™ä¸ªè®¾ç½®makeprgçš„æ–¹æ³•ä¸è¡Œï¼Œä¼°è®¡æ˜¯è·¯å¾„ç©ºæ ¼é—®é¢˜ã€‚
+"ÏÂÃæÕâ¸öÉèÖÃmakeprgµÄ·½·¨²»ÐÐ£¬¹À¼ÆÊÇÂ·¾¶¿Õ¸ñÎÊÌâ¡£
 "set makeprg="D:/Program Files/MinGW/msys/1.0/bin/make.exe"
-"ä¸‹é¢æ–¹æ³•æ¥è‡ªäºŽvi/vimä½¿ç”¨è¿›é˜¶: å‰‘ä¸ç¦»æ‰‹ quickfixã€€æ˜¯å¯ä»¥ç”¨çš„ï¼Œä½†åªæ˜¯ä¸ªå°æµ‹è¯•
+"ÏÂÃæ·½·¨À´×ÔÓÚvi/vimÊ¹ÓÃ½ø½×: ½£²»ÀëÊÖ quickfix¡¡ÊÇ¿ÉÒÔÓÃµÄ£¬µ«Ö»ÊÇ¸öÐ¡²âÊÔ
 "set makeprg=gcc\ -Wall\ -omain\ main.c"
 
-"append programè®¾ç½®åœ¨ä¸Šé¢æ·»åŠ 
-"###############MiniBufExplorer è®¾ç½®###############
+"append programÉèÖÃÔÚÉÏÃæÌí¼Ó
+"###############MiniBufExplorer ÉèÖÃ###############
 
-"å½“æŒ‰ä¸‹<C-Tab>æˆ–<C-S-Tab>å…‰æ ‡ä¸ä½†ä¼šåœ¨å„bufferé—´åˆ‡æ¢ï¼Œè€Œä¸”ä¼šåœ¨å½“å‰çª—å£æ‰“å¼€ã€‚åœ¨ç”¨Taglistæ—¶ä¸å¥½ç”¨ï¼Œç”¨wimwikiæ—¶å¥½ç”¨ã€‚
+"µ±°´ÏÂ<C-Tab>»ò<C-S-Tab>¹â±ê²»µ«»áÔÚ¸÷buffer¼äÇÐ»»£¬¶øÇÒ»áÔÚµ±Ç°´°¿Ú´ò¿ª¡£ÔÚÓÃTaglistÊ±²»ºÃÓÃ£¬ÓÃwimwikiÊ±ºÃÓÃ¡£
 let g:miniBufExplMapCTabSwitchBufs = 1
-"å¯ä»¥ä½¿ç”¨<C-ç®­å¤´>æ¿€æ´»çª—å£,ç”±äºŽbufexplorerä¸­æ˜ å°„äº†<C-right>ä¸Ž<C-left>ä¸Žè¿™é‡Œå†²çªï¼Œæ‰€ä»¥è¿™é‡Œæ³¨é‡ŠæŽ‰ã€‚
+"¿ÉÒÔÊ¹ÓÃ<C-¼ýÍ·>¼¤»î´°¿Ú,ÓÉÓÚbufexplorerÖÐÓ³ÉäÁË<C-right>Óë<C-left>ÓëÕâÀï³åÍ»£¬ËùÒÔÕâÀï×¢ÊÍµô¡£
 "let g:miniBufExplMapWindowNavArrows = 1
 
-"ä½¿ç”¨minnibufåŽ è¦æŒ‰å¥½å‡ ä¸‹qæ‰èƒ½å…³é—­çª—å£ã€‚è¿™é‡Œæ˜ å°„ä¸ªä¸€æ¬¡å…³é—­çª—å£çš„å¿«æ·é”®ã€‚:CMinibBufExploreriiæ˜¯å…³é—­minibufçš„å‘½ä»¤
+"Ê¹ÓÃminnibufºó Òª°´ºÃ¼¸ÏÂq²ÅÄÜ¹Ø±Õ´°¿Ú¡£ÕâÀïÓ³Éä¸öÒ»´Î¹Ø±Õ´°¿ÚµÄ¿ì½Ý¼ü¡£:CMinibBufExploreriiÊÇ¹Ø±ÕminibufµÄÃüÁî
 noremap Q :CMiniBufExplorer<CR>:q<CR>
 
-"æ˜ å°„ä¸€ä¸ªåˆ‡æ¢minibufexplorerçš„å¿«æ·é”®
+"Ó³ÉäÒ»¸öÇÐ»»minibufexplorerµÄ¿ì½Ý¼ü
 noremap tm :TMiniBufExplorer<CR>  
 
-"è®¾ç½®æˆ0ä»£è¡¨æ€»æ˜¯æ˜¾ç¤ºbufçª—å£ï¼Œ1è¡¨ç¤ºå½“æœ‰ä¸€ä¸ªæ–‡ä»¶æ—¶æ˜¾ç¤ºbuf,2è¡¨ç¤ºå½“æœ‰ä¸¤ä¸ªæ–‡ä»¶æ—¶æ‰æ˜¾ç¤ºbuf.ä¾æ¬¡ç±»æŽ¨.ä»Žå…¶å­—é¢æ„æ€å°±èƒ½çœ‹å‡ºæ¥morethanone3è¡¨ç¤ºå¤§äºŽ3æ—¶æ‰æœ‰buf
+"ÉèÖÃ³É0´ú±í×ÜÊÇÏÔÊ¾buf´°¿Ú£¬1±íÊ¾µ±ÓÐÒ»¸öÎÄ¼þÊ±ÏÔÊ¾buf,2±íÊ¾µ±ÓÐÁ½¸öÎÄ¼þÊ±²ÅÏÔÊ¾buf.ÒÀ´ÎÀàÍÆ.´ÓÆä×ÖÃæÒâË¼¾ÍÄÜ¿´³öÀ´morethanone3±íÊ¾´óÓÚ3Ê±²ÅÓÐbuf
 let g:miniBufExplorerMoreThanOne=3
 
-"append MiniBufExplorerè®¾ç½®åœ¨ä¸Šé¢æ·»åŠ 
-"##########bufexplorerè®¾ç½®########
+"append MiniBufExplorerÉèÖÃÔÚÉÏÃæÌí¼Ó
+"##########bufexplorerÉèÖÃ########
 
-"ä¸»è¦æ˜¯é…åˆbufexplorerä½¿ç”¨ï¼Œå› ä¸ºbuferxploreræ–°æ‰“å¼€æ–‡ä»¶æ—¶ä¼šæ–°åˆ’åˆ†å‡ºä¸€ä¸ªçª—å£ã€‚è¿™é‡Œæ˜ å°„ä¸€ä¸ªå¿«é€Ÿå…³é—­å¦ä¸€ä¸ªçª—å£çš„å¿«æ·é”®.å½“åªæœ‰ä¸€ä¸ªçª—å£ï¼Œä¸”å·²ä¿å­˜ï¼Œä¸”å·²å…³é—­Minibufexploreræ—¶å¯ä»¥å…³é—­å½“å‰çª—å£ã€‚
+"Ö÷ÒªÊÇÅäºÏbufexplorerÊ¹ÓÃ£¬ÒòÎªbuferxplorerÐÂ´ò¿ªÎÄ¼þÊ±»áÐÂ»®·Ö³öÒ»¸ö´°¿Ú¡£ÕâÀïÓ³ÉäÒ»¸ö¿ìËÙ¹Ø±ÕÁíÒ»¸ö´°¿ÚµÄ¿ì½Ý¼ü.µ±Ö»ÓÐÒ»¸ö´°¿Ú£¬ÇÒÒÑ±£´æ£¬ÇÒÒÑ¹Ø±ÕMinibufexplorerÊ±¿ÉÒÔ¹Ø±Õµ±Ç°´°¿Ú¡£
 :nmap <C-right> :<esc><C-l>:q<cr>
 :nmap <C-left> :<esc><C-h>:q<cr>
 
 
-"append bufexplorerè®¾ç½®åœ¨ä¸Šé¢æ·»åŠ 
+"append bufexplorerÉèÖÃÔÚÉÏÃæÌí¼Ó
 
 
-"##############nerdtreeçš„è®¾ç½®##########
+"##############nerdtreeµÄÉèÖÃ##########
 
-"æ˜ å°„æ‰“å¼€ã€å…³é—­NERDTreeçª—å£çš„å¿«é”®é”®
+"Ó³Éä´ò¿ª¡¢¹Ø±ÕNERDTree´°¿ÚµÄ¿ì¼ü¼ü
 nmap <F3> :NERDTree  <CR>
 "where NERD tree window is placed on the screen
 let NERDTreeWinPos = "left"
-"è®¾ç½®NERDTreeçª—å£çš„å¤§
+"ÉèÖÃNERDTree´°¿ÚµÄ´ó
 let NERDTreeWinSize = 10 "size of the NERD tree
 
-"ä¸‹é¢é…ç½®ç”¨äºŽä½¿winmanagerå°†nerdtree ä¸Žtaglistè”åˆä½¿ç”¨ã€‚å…·ä½“çš„é…ç½®çœ‹ä¸å¤ªæ‡‚ã€‚
+"ÏÂÃæÅäÖÃÓÃÓÚÊ¹winmanager½«nerdtree ÓëtaglistÁªºÏÊ¹ÓÃ¡£¾ßÌåµÄÅäÖÃ¿´²»Ì«¶®¡£
 "@see http://blog.csdn.net/bokee/article/details/6633193
 	let g:NERDTree_title="[NERDTree]" 
 	let g:winManagerWindowLayout="NERDTree|TagList"
@@ -697,45 +698,52 @@ let NERDTreeWinSize = 10 "size of the NERD tree
 	endfunction  
 	nmap wm :WMToggle<CR>  
 
-"append nerdtreeçš„è®¾ç½®åœ¨ä¸Šé¢æ·»åŠ #########
+"append nerdtreeµÄÉèÖÃÔÚÉÏÃæÌí¼Ó#########
 
-"###############projectè®¾ç½®###############
-"æ˜ å°„æ‰“å¼€projectçª—å£çš„å¿«æ·é”®
+"###############projectÉèÖÃ###############
+"Ó³Éä´ò¿ªproject´°¿ÚµÄ¿ì½Ý¼ü
 nmap <silent> <Leader>P <Plug>ToggleProject
 
-"append projectã€€çš„è®¾ç½®åœ¨ä¸Šé¢æ·»åŠ 
+"append project¡¡µÄÉèÖÃÔÚÉÏÃæÌí¼Ó
 
-"###########c.vim è®¾ç½®###############
-"è®¾ç½®c.vimçš„<leader>é”®ï¼Œå› ä¸ºç”¨\ä¸æ–¹ä¾¿.è¯¥è®¾ç½®åªå¯¹æ–‡ä»¶ç±»åž‹æ˜¯c cppçš„æœ‰æ•ˆã€‚
+"###########c.vim ÉèÖÃ###############
+"ÉèÖÃc.vimµÄ<leader>¼ü£¬ÒòÎªÓÃ\²»·½±ã.¸ÃÉèÖÃÖ»¶ÔÎÄ¼þÀàÐÍÊÇc cppµÄÓÐÐ§¡£
 let g:C_MapLeader  = ','
 
-"append c.vim çš„è®¾ç½®åœ¨ä¸Šé¢æ·»åŠ 
+"append c.vim µÄÉèÖÃÔÚÉÏÃæÌí¼Ó
 
-"###########SuperTab è®¾ç½®#################
-"ä¸‹é¢å‡ è¡Œæ˜¯å…³äºŽè‡ªåŠ¨è¡¥å…¨çš„è®¾ç½®ï¼Œä¸ŽSuperTabæ— å…³
-"ç¼ºçœçš„ï¼Œvimä¼šä½¿ç”¨ä¸‹æ‹‰èœå•å’Œä¸€ä¸ªpreviewçª—å£(é¢„è§ˆçª—å£)æ¥æ˜¾ç¤ºåŒ¹é…é¡¹ç›®ï¼Œä¸‹æ‹‰èœå•åˆ—å‡ºæ‰€æœ‰åŒ¹é…çš„é¡¹ç›®ï¼Œé¢„è§ˆçª—å£åˆ™æ˜¾ç¤ºé€‰ä¸­é¡¹ç›®çš„è¯¦ç»†ä¿¡æ¯ã€‚æ‰“å¼€é¢„è§ˆçª—å£ä¼šå¯¼è‡´ä¸‹æ‹‰èœå•æŠ–åŠ¨ï¼Œå› æ­¤æˆ‘ä¸€èˆ¬éƒ½åŽ»æŽ‰é¢„è§ˆçª—å£çš„æ˜¾ç¤ºï¼Œè¿™éœ€è¦æ”¹å˜â€™completeoptâ€˜çš„å€¼
+"###########SuperTab ÉèÖÃ#################
+"ÏÂÃæ¼¸ÐÐÊÇ¹ØÓÚ×Ô¶¯²¹È«µÄÉèÖÃ£¬ÓëSuperTabÎÞ¹Ø
+"È±Ê¡µÄ£¬vim»áÊ¹ÓÃÏÂÀ­²Ëµ¥ºÍÒ»¸öpreview´°¿Ú(Ô¤ÀÀ´°¿Ú)À´ÏÔÊ¾Æ¥ÅäÏîÄ¿£¬ÏÂÀ­²Ëµ¥ÁÐ³öËùÓÐÆ¥ÅäµÄÏîÄ¿£¬Ô¤ÀÀ´°¿ÚÔòÏÔÊ¾Ñ¡ÖÐÏîÄ¿µÄÏêÏ¸ÐÅÏ¢¡£´ò¿ªÔ¤ÀÀ´°¿Ú»áµ¼ÖÂÏÂÀ­²Ëµ¥¶¶¶¯£¬Òò´ËÎÒÒ»°ã¶¼È¥µôÔ¤ÀÀ´°¿ÚµÄÏÔÊ¾£¬ÕâÐèÒª¸Ä±ä¡¯completeopt¡®µÄÖµ
 set completeopt=longest,menu
 
-"ä»¥ä¸‹æ˜¯supertabçš„è®¾ç½®
-"è®¾ç½®supertabçš„è¡¥å…¨ç±»åž‹
+"ÒÔÏÂÊÇsupertabµÄÉèÖÃ
+"ÉèÖÃsupertabµÄ²¹È«ÀàÐÍ
 let g:SuperTabDefaultCompletionType = "context"
 
-"append supertabã€€çš„è®¾ç½®åœ¨ä¸Šé¢æ·»åŠ 
+"append supertab¡¡µÄÉèÖÃÔÚÉÏÃæÌí¼Ó
 
-"#################git-vimè®¾ç½®##################
-"ä¸‹é¢æœ‰äº›å¿«æ·é”®å·²ç»æ˜¯ç”±è¯¥æ’ä»¶é»˜è®¤çš„äº†ï¼Œè¿™é‡Œä¸ºäº†ç»Ÿä¸€èµ·è§å†å®šä¹‰ä¸€éã€‚
+"#################git-vimÉèÖÃ##################
+"ÏÂÃæÓÐÐ©¿ì½Ý¼üÒÑ¾­ÊÇÓÉ¸Ã²å¼þÄ¬ÈÏµÄÁË£¬ÕâÀïÎªÁËÍ³Ò»Æð¼ûÔÙ¶¨ÒåÒ»±é¡£
+
+"Îñ±ØÔÄ¶Á¡¶wiz--git-vim²å¼þµÄÊ¹ÓÃ¡·ÖÐ¹ØÓÚ¡¡Ê¹ÓÃÊ±µÄÖî¶à¹æ·¶»òÏÞÖÆ¡¡ÒòÎªÓÐÐ©Ó³ÉäÊÇÓÐÇ°ÌáµÄ
 map <leader>gs :GitStatus<cr>
 map <leader>gc :GitCommit<cr>
 map <leader>ga :GitAdd<cr>
-"æ³¨æ„å¦‚æžœåªå†™GitPush åˆ™é»˜è®¤çš„å‘½ä»¤æ˜¯ã€€GitPush origin master
-"å¦‚æžœè¿œç¨‹ä»“åº“çš„åå­—ä¸æ˜¯originåˆ™ä¼šå‡ºé”™ï¼Œæ‰€ä»¥æœ€å¥½ä¸€å¼€å§‹å°±æŠŠè¿œç¨‹ä»“åº“çš„åå­—é…ç½®æ˜¯original
+
+"×¢ÒâÈç¹ûÖ»Ð´GitPush ÔòÄ¬ÈÏµÄÃüÁîÊÇ¡¡GitPush origin master
+"Èç¹ûÔ¶³Ì²Ö¿âµÄÃû×Ö²»ÊÇoriginÔò»á³ö´í£¬ËùÒÔ×îºÃÒ»¿ªÊ¼¾Í°ÑÔ¶³Ì²Ö¿âµÄÃû×ÖÅäÖÃÊÇorigin ¼´Ê±µ±Ç°·ÖÖ§²»ÊÇmaster£¬Ò²»ápush master·ÖÖ§
 map <leader>gp :GitPush<cr>
-"è¿™ä¸ªæ˜¯æˆ‘æ˜ å°„çš„ï¼Œå› ä¸ºGitLogç”¨çš„å¤šï¼Œæ‰€ä»¥ç”¨å°å®šï¼Œè¿™é‡Œå°±ç”¨å¤§å†™ã€‚æ³¨æ„äº†è¿™é‡Œåªç”¨ã€€GitPullå°±èƒ½æˆåŠŸçš„çš„å‰ææ˜¯ï¼šåœ¨gitçš„configæ–‡ä»¶ä¸­é…ç½®äº†å¦‚ä¸‹å†…å®¹
-"[branch "master"]
-"remote = origin
-"merge = refs/heads/master
-"åœ¨wikiåŠwizéƒ½æœ‰è®°å½•
+"Ïàµ±ÓÚÃüÁîgit push --all ¼´°Ñ±¾µØËùÓÐ·ÖÖ§¶¼pushµ½Ô¶³Ì
+map <leader>gpa :GitPush --all<cr>
+
+
+"Õâ¸öÊÇÎÒÓ³ÉäµÄ£¬ÒòÎªGitLogÓÃµÄ¶à£¬ËùÒÔÓÃÐ¡Ð´£¬ÕâÀï¾ÍÓÃ´óÐ´¡£
 map <leader>gL :GitPull<cr>
+
+
 map <leader>gl :GitLog<cr>
 
-"#################git-vimè®¾ç½®åœ¨ä¸Šé¢##################
+"ÒòÎªGitÓÃµÄ¶à,ËùÒÔÕâÀïÓ³Éä¸ö¿ì½Ý¼ü
+map ,g :Git 
+"#################git-vimÉèÖÃÔÚÉÏÃæ##################

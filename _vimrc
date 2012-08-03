@@ -1,4 +1,4 @@
-"last modify:23:21 2012-7-31
+"last modify:22:13 2012-8-3
 
 
 "#########规范说明####################
@@ -602,11 +602,16 @@ function Do_make()
     execute "copen 5"
 endfunction
 
-"映射快速编译的快捷键,注意只编译不运行程序。<F5>不但编译还运行，这里只编译。
-autocmd FileType c,cpp  map <buffer> <leader><space> :w<cr>:silent make<cr>:copen 5<cr>
+"映射快速编译的快捷键,注意只编译不运行程序。<F5>不但编译还运行，这里只编译。废弃，因为用c插件，现在在用那里的快捷键
+"autocmd FileType c,cpp  map <buffer> <leader><space> :w<cr>:silent make<cr>:copen 5<cr>
 
-"映射　打开quickfix窗口　的快捷键
+"映射快速运行当前目录下main.exe的快捷键
+nmap <leader><space> :!.\main.exe<cr>
+
+"映射　打开关闭quickfix窗口　的快捷键
 nmap <leader>cw   :cw 5<cr>
+nmap <leader>cc   :ccl<cr>
+
 
 "把Cscope的查找结果输出到quickfix窗口
 "@see http://blog.csdn.net/bokee/article/details/6633193 

@@ -1,4 +1,4 @@
-"last modify:22:13 2012-8-3
+"last modify:10:29 2012-8-4
 
 
 "#########规范说明####################
@@ -749,6 +749,8 @@ map <leader>gL :GitPull<cr>
 
 
 map <leader>gl :GitLog<cr>
+"映射统计提交信息的快捷键
+map <leader>gls :GitLog --shortstat --pretty=format:"%ci %cr %an"<cr>
 
 "因为Git用的多,所以这里映射个快捷键
 map ,g :Git 

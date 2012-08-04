@@ -218,6 +218,7 @@ map mc2	: <esc>:!D:\shortcut\commonTools\copyLog\copyLog.bat
 
 "设置切换到wiki目录下的快捷键，主要是配合vimgrep命令使用，因为在windows下打开vim时当前路径在其快捷方式所在路径下，如我的在d\shortcut 下 d代表 cd 进入路径的意思
 map md : <esc>: cd E:\ApplicationData\netDisk\klive\wiki
+map mdc : <esc>: cd E:\CodeSpace\C\mangCExercise_Vim<cr>
 
 "快速打开当文件所以路径下的其它文件 来自于Vimtips
 "在正常模式下使用 ,e 然后用tab 切换文件。当然可以先输入几个字符再tab可以快速定位到文件

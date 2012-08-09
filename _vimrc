@@ -1,4 +1,4 @@
-"last modify:10:29 2012-8-4
+"last modify:09:44 2012-8-9
 
 
 "#########规范说明####################
@@ -469,8 +469,9 @@ map \f <esc><LocalLeader><LocalLeader>:q<return>
 "@see http://blog.csdn.net/bokee/article/details/6633193
 map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR> 
 
-"这两项也不知道什么意思，网上说的，也就这样设了。
+"这项也不知道什么意思，网上说的，也就这样设了。
 set tags=tags;
+"自动切换目录到当前编辑的文件所以路径
 set autochdir
 
 "设置ctags.exe的路径，当然也可直接加到系统的环境变量中，这里就不再设置了。本来想设置在vim相关目录下，但因为program有空格没有成功，所以就另设了一个没有空格的路径。

@@ -257,7 +257,7 @@ map <C-l> <C-W>l
 "Toggle Menu and Toolbar
 set guioptions-=m
 set guioptions-=T
-map <silent> <F2> :if &guioptions =~# 'T' <Bar>
+map <silent> <F10> :if &guioptions =~# 'T' <Bar>
         \set guioptions-=T <Bar>
         \set guioptions-=m <bar>
     \else <Bar>

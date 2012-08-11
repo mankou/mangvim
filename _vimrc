@@ -230,6 +230,9 @@ map ,mdc : <esc>: cd E:\CodeSpace\C\mangCExercise_Vim<cr>
 "也可,e <tab>
 map ,e :e 
 
+map ,w :w<cr>
+map ,q :wq<cr>
+
 
 "vim不产生备份文件，备份文件存放在~/vimtmp 目录下。若是windows系统，则~目录指的是C:\Documents and Settings\用户名
 set backup

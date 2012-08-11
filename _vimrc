@@ -1,4 +1,4 @@
-"last modify:09:44 2012-8-9
+"last modify:09:34 2012-8-11
 
 
 "#########规范说明####################
@@ -20,15 +20,15 @@
 "##########hotkey 快捷键汇总####################
 "------下方都是自定义的快捷键，已经在各自区域设置，这里为了以后管理方便，为了防止以后设置快捷键冲突，所以这里集中起来。
 "-------全局
-	"map md : <esc>: cd E:\ApplicationData\netDisk\klive\wiki
-	"map mc	: <esc>:!..\..\copyNext.bat
-	"map mc2: <esc>:!D:\shortcut\commonTools\copyLog\copyLog.bat
+	"map ,mdc : <esc>: cd E:\CodeSpace\C\mangCExercise_Vim<cr>
+	"map ,mc	: <esc>:!..\..\copyNext.bat
+	"map ,mc2: <esc>:!D:\shortcut\commonTools\copyLog\copyLog.bat
 	"map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR> 
 "-------vimwiki
-	"map ms : <esc>:VimwikiSearch
-	"map mn : <esc>:lnext <Return>
-	"map mp : <esc>:lprevious <Return>
-	"map mo : <esc>:lopen <Return>
+	"map ,ms : <esc>:VimwikiSearch
+	"map ,mn : <esc>:lnext <Return>
+	"map ,mp : <esc>:lprevious <Return>
+	"map ,mo : <esc>:lopen <Return>
 "-------Voom
 	"map \f <esc><LocalLeader><LocalLeader>:q<return> 
 
@@ -213,12 +213,11 @@ set shiftwidth=4
 "map 1 : <esc>$  "由于两个1都设置成快捷键在正常模式下将不能输入数字1
 
 "设置运行批处理文件的快捷键，用在用vimwiki写完log并导出html后快速复制html到相应目录下 c表示copy
-map mc	: <esc>:!..\..\copyNext.bat
-map mc2	: <esc>:!D:\shortcut\commonTools\copyLog\copyLog.bat
+map ,mc	: <esc>:!..\..\copyNext.bat
+map ,mc2	: <esc>:!D:\shortcut\commonTools\copyLog\copyLog.bat
 
-"设置切换到wiki目录下的快捷键，主要是配合vimgrep命令使用，因为在windows下打开vim时当前路径在其快捷方式所在路径下，如我的在d\shortcut 下 d代表 cd 进入路径的意思
-map md : <esc>: cd E:\ApplicationData\netDisk\klive\wiki
-map mdc : <esc>: cd E:\CodeSpace\C\mangCExercise_Vim<cr>
+"设置切换到　mangCExercise_vim目录下。主要是为了使用版本控制的一些命令
+map ,mdc : <esc>: cd E:\CodeSpace\C\mangCExercise_Vim<cr>
 
 "快速打开当文件所以路径下的其它文件 来自于Vimtips
 "在正常模式下使用 ,e 然后用tab 切换文件。当然可以先输入几个字符再tab可以快速定位到文件
@@ -390,12 +389,12 @@ let g:vimwiki_hl_headers = 1
 let g:vimwiki_table_auto_fmt = 1
 
 "设置vimwiki下查找的快捷键 s代表search
-map ms : <esc>:VimwikiSearch
+map ,ms : <esc>:VimwikiSearch
 
 "设置vimwiki查找后浏览的快捷键 如mn代表显示下一个匹配项 mp代表显示前一个匹配项 lm代表显示所有匹配项.原来设置的是ln lp lo　后来发现l是光标向右移动的键，所以又改成m了
-map mn : <esc>:lnext <Return>
-map mp : <esc>:lprevious <Return>
-map mo : <esc>:lopen <Return>
+map ,mn : <esc>:lnext <Return>
+map ,mp : <esc>:lprevious <Return>
+map ,mo : <esc>:lopen <Return>
 
 "append vimwiki vimwiki 设置在上面添加
 

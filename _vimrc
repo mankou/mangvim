@@ -1,4 +1,4 @@
-"last modify:09:34 2012-8-11
+"last modify:10:34 2012-8-11
 
 
 "#########规范说明####################
@@ -220,12 +220,15 @@ map ,mc2	: <esc>:!D:\shortcut\commonTools\copyLog\copyLog.bat
 map ,mdc : <esc>: cd E:\CodeSpace\C\mangCExercise_Vim<cr>
 
 "快速打开当文件所以路径下的其它文件 来自于Vimtips
-"在正常模式下使用 ,e 然后用tab 切换文件。当然可以先输入几个字符再tab可以快速定位到文件
-if has("unix")
-    map ,e :e <C-R>=expand("%:p:h") . "/" <CR>
-else
-    map ,e :e <C-R>=expand("%:p:h") . "\" <CR>
-endif
+"在正常模式下使用 ,e 然后用tab 切换文件。当然可以先输入几个字符再tab可以快速定位到文件.但实际使用时报错，这里先删除该映射
+"if has("unix")
+"    map ,e :e <C-R>=expand("%:p:h") . "/" <CR>
+"else
+"    map ,e :e <C-R>=expand("%:p:h") . "\" <CR>
+"endif
+"因为我已经设置了自动切换到文件当前路径，所以只要输入:e 部分文件名　就可打开当前路径下的其它文件.注意　:e　后面有一空格。
+"也可,e <tab>
+map ,e :e 
 
 
 "vim不产生备份文件，备份文件存放在~/vimtmp 目录下。若是windows系统，则~目录指的是C:\Documents and Settings\用户名

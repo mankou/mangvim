@@ -1,4 +1,4 @@
-"last modify:10:34 2012-8-11
+"last modify:08:35 2012-8-31
 
 
 "#########规范说明####################
@@ -232,6 +232,9 @@ map ,e :e
 
 map ,w :w<cr>
 map ,q :wq<cr>
+
+"设置 . 可用于选择模式下。即以前你想重复只能一行一行的重复。现在可以一次选中重复。
+vnoremap . :normal .<CR>
 
 
 "vim不产生备份文件，备份文件存放在~/vimtmp 目录下。若是windows系统，则~目录指的是C:\Documents and Settings\用户名

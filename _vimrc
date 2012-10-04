@@ -430,6 +430,8 @@ let g:calendar_mark = 'left'
 "可以让*与数字靠的更近一些
 let g:calendar_mark = 'left-fit'
 
+"显示第几周　每年1月1日为第一周
+let g:calendar_weeknm = 1 " WK01
 "append calendar calendar设置在上面添加
 
 "############Voom的设置################

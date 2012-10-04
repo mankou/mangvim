@@ -1,4 +1,4 @@
-"last modify:08:35 2012-8-31
+"last modify::00:16 2012-10-5
 
 
 "#########规范说明####################
@@ -68,6 +68,10 @@
 	"map <leader>gL :GitPull<cr>
 	"map <leader>gl :GitLog<cr>
 
+"---------vimim
+	"CTRL+ ^ 各中文输入法间切换
+	"CTRL+ - 打开/关闭中文输入法
+	"CTRL+ H 退格
 "append hotkey hotkye设置在上面添加
 
 
@@ -769,3 +773,23 @@ map <leader>gls :GitLog --shortstat --pretty=format:"%ci %cr %an"<cr>
 "因为Git用的多,所以这里映射个快捷键
 map ,g :Git 
 "#################git-vim设置在上面##################
+
+
+"#################vimim设置在下面##################
+
+"设定循环次序,若为-1则表示彻底关闭循环
+let g:vimim_toggle='wubi,pinyin'
+"let g:vimim_toggle='-1'
+
+"不知道含义，是在一个网站上看到要这样设置的
+"let g:vimim_wubi='jd'
+
+"输入模式动态表示：每打一个字就显示选项。静态表示：打完空格才显示选项，默认是动态。
+let g:vimim_mode = 'dynamic'
+"let g:vimim_mode = 'static'
+
+"开关输入法快捷键
+let g:vimim_map='c-bslash'
+
+
+"#################vimim设置在上面##################

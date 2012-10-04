@@ -791,5 +791,7 @@ let g:vimim_mode = 'dynamic'
 "开关输入法快捷键
 let g:vimim_map='c-bslash'
 
+" 彻底关闭云输入，五笔使用者可选
+"let g:vimim_cloud=-1 
 
 "#################vimim设置在上面##################

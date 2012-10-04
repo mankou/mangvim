@@ -29,6 +29,8 @@
 	"map ,mn : <esc>:lnext <Return>
 	"map ,mp : <esc>:lprevious <Return>
 	"map ,mo : <esc>:lopen <Return>
+	"map ,w :w<cr>
+	"map ,q :wq<cr>
 "-------Voom
 	"map \f <esc><LocalLeader><LocalLeader>:q<return> 
 
@@ -230,6 +232,7 @@ map ,mdc : <esc>: cd E:\CodeSpace\C\mangCExercise_Vim<cr>
 "也可,e <tab>
 map ,e :e 
 
+"映射快速打开与快速关闭快捷键
 map ,w :w<cr>
 map ,q :wq<cr>
 

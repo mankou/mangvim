@@ -1,4 +1,4 @@
-"last modify::00:16 2012-10-5
+"last modify::12:14 2012-10-13
 
 
 "#########规范说明####################
@@ -640,7 +640,8 @@ set cscopequickfix=s-,c-,d-,i-,t-,e-
 nmap <F7> :cp<cr>
 nmap <F8> :cn<cr>
 "映射退出quickfix窗口的快捷键
-nmap q :close<cr>
+"因为q与录制宏快捷键冲突，所以这里注意掉。可通过<leader>cc关闭quickfix
+"nmap q :close<cr>
 
 
 "映射debug的快捷键

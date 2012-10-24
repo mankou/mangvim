@@ -1,4 +1,4 @@
-"last modify::12:14 2012-10-13
+"last modify::2012-10-24 16:48:35
 
 
 "#########规范说明####################
@@ -21,8 +21,9 @@
 "------下方都是自定义的快捷键，已经在各自区域设置，这里为了以后管理方便，为了防止以后设置快捷键冲突，所以这里集中起来。
 "-------全局
 	"map ,mdc : <esc>: cd E:\CodeSpace\C\mangCExercise_Vim<cr>
-	"map ,mc	: <esc>:!..\..\copyNext.bat
+	"map ,mc : <esc>:!..\..\copyNext.bat
 	"map ,mc2: <esc>:!D:\shortcut\commonTools\copyLog\copyLog.bat
+	":nnoremap ,mt "=strftime("%c")<CR>p
 	"map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR> 
 "-------vimwiki
 	"map ,ms : <esc>:VimwikiSearch
@@ -224,6 +225,11 @@ map ,mc2	: <esc>:!D:\shortcut\commonTools\copyLog\copyLog.bat
 
 "设置切换到　mangCExercise_vim目录下。主要是为了使用版本控制的一些命令
 map ,mdc : <esc>: cd E:\CodeSpace\C\mangCExercise_Vim<cr>
+
+"设置快速插入当前日期及时间
+"P表示把时间插入到当前光标前面,p表示把时间插入到当前光标后面
+:nnoremap ,mt "=strftime("%c")<CR>p
+
 
 "快速打开当文件所以路径下的其它文件 来自于Vimtips
 "在正常模式下使用 ,e 然后用tab 切换文件。当然可以先输入几个字符再tab可以快速定位到文件.但实际使用时报错，这里先删除该映射

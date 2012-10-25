@@ -1,5 +1,4 @@
-"last modify::2012-10-24 16:48:35
-
+"last modify::2012-10-25 14:48:15
 
 "#########规范说明####################
 "建立于2012-04-26
@@ -24,6 +23,7 @@
 	"map ,mc : <esc>:!..\..\copyNext.bat
 	"map ,mc2: <esc>:!D:\shortcut\commonTools\copyLog\copyLog.bat
 	":nnoremap ,mt "=strftime("%c")<CR>p
+	":nnoremap ,mtt "=strftime("%H:%M")<CR>p
 	"map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR> 
 "-------vimwiki
 	"map ,ms : <esc>:VimwikiSearch
@@ -230,6 +230,8 @@ map ,mdc : <esc>: cd E:\CodeSpace\C\mangCExercise_Vim<cr>
 "P表示把时间插入到当前光标前面,p表示把时间插入到当前光标后面
 :nnoremap ,mt "=strftime("%c")<CR>p
 
+"设置快速插入当前时间的快捷键,注意必须是大写的H和M,小写的有问题
+:nnoremap ,mtt "=strftime("%H:%M")<CR>p
 
 "快速打开当文件所以路径下的其它文件 来自于Vimtips
 "在正常模式下使用 ,e 然后用tab 切换文件。当然可以先输入几个字符再tab可以快速定位到文件.但实际使用时报错，这里先删除该映射

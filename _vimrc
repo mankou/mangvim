@@ -1,4 +1,4 @@
-"last modify::2012-10-25 14:48:15
+"last modify::2012-10-30 10:42:28
 
 "#########规范说明####################
 "建立于2012-04-26
@@ -24,6 +24,7 @@
 	"map ,mc2: <esc>:!D:\shortcut\commonTools\copyLog\copyLog.bat
 	":nnoremap ,mt "=strftime("%c")<CR>p
 	":nnoremap ,mtt "=strftime("%H:%M")<CR>p
+	":map ,mg a`<esc>,mttw<esc>
 	"map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR> 
 "-------vimwiki
 	"map ,ms : <esc>:VimwikiSearch
@@ -230,6 +231,8 @@ map ,mdc : <esc>: cd E:\CodeSpace\C\mangCExercise_Vim<cr>
 "P表示把时间插入到当前光标前面,p表示把时间插入到当前光标后面
 :nnoremap ,mt "=strftime("%c")<CR>p
 
+"设置快速插入 `时间` 要用 ,mt快捷键 a`表示插入` 然后回到一般模式，然后,mtt 输入时间 然后w 光标向后走一个字
+:map ,mg a`<esc>,mttw<esc>
 "设置快速插入当前时间的快捷键,注意必须是大写的H和M,小写的有问题
 :nnoremap ,mtt "=strftime("%H:%M")<CR>p
 

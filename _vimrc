@@ -1,4 +1,4 @@
-"last modify::2012-10-30 10:42:28
+"last modify::2013-2-26 14:23:56
 
 "#########规范说明####################
 "建立于2012-04-26
@@ -277,7 +277,7 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
-"默认隐藏菜单栏和工具栏，可以通过 <F2> 切换显示和隐藏。
+"默认隐藏菜单栏和工具栏，可以通过 <F10> 切换显示和隐藏。
 
 " @see http://www.linuxeden.com/html/softuse/20080331/52958.html  
 
@@ -807,3 +807,37 @@ let g:vimim_map='c-bslash'
 "let g:vimim_cloud=-1 
 
 "#################vimim设置在上面##################
+
+"####################latex设置在下面###################
+"我也不理解这些设置，这些设置是从官网上摘来的
+
+" REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
+filetype plugin on
+
+" IMPORTANT: win32 users will need to have 'shellslash' set so that latex
+" can be called correctly.
+set shellslash
+
+" IMPORTANT: grep will sometimes skip displaying the file name if you
+" search in a singe file. This will confuse Latex-Suite. Set your grep
+" program to always generate a file-name.
+set grepprg=grep\ -nH\ $*
+
+" OPTIONAL: This enables automatic indentation as you type.
+filetype indent on
+
+" OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
+" 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
+" The following changes the default filetype back to 'tex':
+let g:tex_flavor='latex'
+
+
+"来自于水木社区http://ar.newsmth.net/thread-3983d146501c3c.html
+"目的是快速编译成pdf文件。因为默认生成dvi文件，如果要生成pdf文件需使用命令 :TTarget pdf 然后再使用\ll会生成pdf. 这里可通过 \lp 设置成默认pdf并生成pdf 以后用\ll也会生成pdf，方便些。
+let g:Tex_FormatDependency_pdfs = 'dvi,ps,pdf'
+let g:Tex_FormatDependency_pdfm = 'dvi,pdf'
+let g:Tex_CompileRule_pdfs = 'ps2pdf $*.ps'
+let g:Tex_CompileRule_pdfm = 'dvipdfm $*.dvi' 
+map \lp <esc>:TCTarget pdfm<cr>\ll
+
+"####################latex设置在上面###################

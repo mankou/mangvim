@@ -362,6 +362,16 @@ let g:vimwiki_list = [
 		\'syntax': 'default',
 		\ 'nested_syntaxes': {'C': 'c'},
 	\},
+	\{
+		\'path': $VIMHOME.'/blog/mangkou/wiki',
+		\ 'path_html':$VIMHOME.'/blog/mangkou/_posts/',
+ 		\ 'template_path': '$VIMHOME/templates/',
+        \ 'template_default': 'HaveNoHead',
+        \ 'template_ext': '.html',	
+		\ 'index': '2013-03-1-mangkoublog',
+		\'syntax': 'default',
+		\ 'nested_syntaxes': {'C': 'c'},
+	\},
 \]
 "设置vimwiki各标题的颜色，标题1-标题6分别是红绿蓝粉青黄，注意这是在vim中显示的颜色，不是在网页中显示的颜色。
 "配置颜色的目的：是为了配合Voom。我以前为Voom自定义了个配色的配置文件在$Vimhome/vimfiles/syntax/Voomtxt.wiki {现在安装了pathegon插件，所以该文件路径为$Vimhome/vimfiles/bundle/Voom/syntax 如果没有syntax目录的话，自己新建} 那里曾经也为vimwiki配置过颜色（vimwiki默认的配色不是这个样子），使用时需要每次输入命令 set ft=Voomtxt，才能看到配色的效果，使用起来比较麻烦。但我也不想把voomtxt关于vimwiki的配色设置删除掉，为了保护自己的劳动成果，所以在vimwiki下也设置了与那里相同的颜色。即本来使用的是Vimwiki默认的配色方案，但后来在Voomtxt.wiki中为wimwiki配置了颜色，但使用voomtxt又不是很方便，所以为了延续voomtxt的配色方案，这里把vimwiki的配色方案设置成与voomtxt一样的配色方案。

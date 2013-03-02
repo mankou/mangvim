@@ -363,12 +363,12 @@ let g:vimwiki_list = [
 		\ 'nested_syntaxes': {'C': 'c'},
 	\},
 	\{
-		\'path': $VIMHOME.'/blog/mangkou/wiki',
-		\ 'path_html':$VIMHOME.'/blog/mangkou/_posts/',
+		\'path': $VIMHOME.'/blog/mankou/wiki',
+		\ 'path_html':$VIMHOME.'/blog/mankou/_posts/',
  		\ 'template_path': '$VIMHOME/templates/',
         \ 'template_default': 'HaveNoHead',
         \ 'template_ext': '.html',	
-		\ 'index': '2013-03-1-mangkoublog',
+		\ 'index': 'mankoublog',
 		\'syntax': 'default',
 		\ 'nested_syntaxes': {'C': 'c'},
 	\},
@@ -778,8 +778,9 @@ map <leader>gc :GitCommit<cr>
 map <leader>ga :GitAdd<cr>
 
 "注意如果只写GitPush 则默认的命令是　GitPush origin master
-"如果远程仓库的名字不是origin则会出错，所以最好一开始就把远程仓库的名字配置是origin 即时当前分支不是master，也会push master分支
-map <leader>gp :GitPush<cr>
+"如果远程仓库的名字不是origin则会出错，所以最好一开始就把远程仓库的名字配置是origin 即时当前分支不是master，也会push master分支. 本来想用\gp的，但发现映射后并不灵 而是指向了pull命令，可能与gitvim插件冲突了。所以这里设置成\gpo  因为oringin 所以用o
+map <leader>gpo :GitPush<cr>
+
 "相当于命令git push --all 即把本地所有分支都push到远程
 map <leader>gpa :GitPush --all<cr>
 

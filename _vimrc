@@ -1,4 +1,4 @@
-"last modify::2013-2-26 14:23:56
+"last modify::2013-3-5 20:15:02
 
 "#########规范说明####################
 "建立于2012-04-26
@@ -776,6 +776,9 @@ let g:SuperTabDefaultCompletionType = "context"
 map <leader>gs :GitStatus<cr>
 map <leader>gc :GitCommit<cr>
 map <leader>ga :GitAdd<cr>
+"自动提交的命令 gca取gc
+"auto之意.因为目前提交时跳出的窗口必须手动关掉。有些麻烦，况且有时并不需要输入有用信息。如提交博客
+map <leader>gca :!git commit -m "%date%"<cr>
 
 "注意如果只写GitPush 则默认的命令是　GitPush origin master
 "如果远程仓库的名字不是origin则会出错，所以最好一开始就把远程仓库的名字配置是origin 即时当前分支不是master，也会push master分支. 本来想用\gp的，但发现映射后并不灵 而是指向了pull命令，可能与gitvim插件冲突了。所以这里设置成\gpo  因为oringin 所以用o

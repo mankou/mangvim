@@ -391,6 +391,9 @@ let g:vimwiki_browsers=['D:\Program Files\Mozilla Firefox\firefox.exe']
 " 使用鼠标映射  
 let g:vimwiki_use_mouse = 1
 
+"可以通过g:vimwiki_ext2syntax将文件格式(.markdown,.wiki)同syntax结合起来
+let g:vimwiki_ext2syntax
+
 " 是否将驼峰式词组作为 Wiki 词条 1是 0否 默认是1
 let g:vimwiki_camel_case = 0
 

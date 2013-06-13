@@ -310,7 +310,7 @@ filetype plugin on "针对不同文件类型的相应plugin, 你可以使用该命令开启对它的应用
 syntax on
 
 "let $VIMHOME = 'E:\网盘\dBank\My DBank\wiki'
-let $VIMHOME = 'E:\ApplicationData\netDisk\klive\wiki'
+let $VIMHOME = 'E:\ApplicationData\netDisk\Dropbox\wiki'
 "设置wiki路径
 let g:vimwiki_list = [
 	\{

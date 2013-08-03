@@ -1,4 +1,4 @@
-"last modify::2013-3-5 20:15:02
+"last modify::2013-7-30 20:07:15
 
 "#########规范说明####################
 "建立于2012-04-26
@@ -245,20 +245,25 @@ map ,mdc : <esc>: cd E:\CodeSpace\C\mangCExercise_Vim<cr>
 "endif
 "因为我已经设置了自动切换到文件当前路径，所以只要输入:e 部分文件名　就可打开当前路径下的其它文件.注意　:e　后面有一空格。
 "也可,e <tab>
-map ,e :e 
+"打开文件，不过打开的是窗口让你选择 因为这个可以联用TC快速定位目录
+map ,e :browse tabnew <cr>
 
 "映射快速打开与快速关闭快捷键
 map ,w :w<cr>
 map ,q :wq<cr>
+
+"映射快速粘贴剪切板的快捷键
+map ,p "+p
 
 "设置 . 可用于选择模式下。即以前你想重复只能一行一行的重复。现在可以一次选中重复。
 vnoremap . :normal .<CR>
 
 
 "vim不产生备份文件，备份文件存放在~/vimtmp 目录下。若是windows系统，则~目录指的是C:\Documents and Settings\用户名
-set backup
-set writebackup
-set backupdir=~/vimtmp 
+"set backup
+"set writebackup
+"set backupdir=d:\Program\ Files\vim\vimtmp\
+set nobackup
 
 "自动补全之字典补全 Ctrl+X Ctrl+K 
 "在dict.txt文件中可以自定义自动补全的单词 如<red> <modify>

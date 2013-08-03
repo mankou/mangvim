@@ -6,4 +6,3 @@ vim: ft=Voomtxt
 2012-07-29.png是于截止2012-07-29安装的vim插件图
 totd.vim 因为totd.vim每天都会变，所以把他从版本控制中删除了。但又害怕以后clone　totd.vim找不回来。所以这里先备份一份，如果一旦丢失，可以将其复制到D:\Program Files\vim\vimfiles\bundle\vimtips2.2.2\plugin　目录下
 
-

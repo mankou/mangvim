@@ -1,4 +1,4 @@
-"last modify::2013-8-12 20:03:25
+"last modify::2013-8-12 20:39:50
 
 "#########规范说明####################
 "建立于2012-04-26
@@ -54,7 +54,7 @@
 "-------program
 	"map <F5> :call Do_OneFileMake()<CR>
 	"map <F6> :!make<CR>
-	"map <c-F6> :silent make clean<CR>
+	"map <c-F6> :!make clean<CR>
 	"autocmd FileType c,cpp  map <buffer> <leader><space> :w<cr>:silent make<cr>:copen 5<cr>
 	"nmap <F7> :cp<cr>
 	"nmap <F8> :cn<cr>
@@ -646,12 +646,14 @@ endfunction
 map <F6> :!make<CR>
 
 "执行make clean
-map <c-F6> :silent make clean<CR>
-function Do_make()
-    set makeprg=make
-    execute "silent make"
-    execute "copen 5"
-endfunction
+map <c-F6> :!make clean<CR>
+"这是以前的用于执行make clean的代码，现在用着不爽了，所以换成直接用在命令行输的命令
+"map <c-F6> :silent make clean<CR>
+"function Do_make()
+"    set makeprg=make
+"    execute "silent make"
+"    execute "copen 5"
+"endfunction
 
 "映射快速编译的快捷键,注意只编译不运行程序。<F5>不但编译还运行，这里只编译。废弃，因为用c插件，现在在用那里的快捷键
 "autocmd FileType c,cpp  map <buffer> <leader><space> :w<cr>:silent make<cr>:copen 5<cr>

@@ -1,4 +1,4 @@
-"last modify::2013-8-6 22:03:31
+"last modify::2013-8-12 20:03:25
 
 "#########规范说明####################
 "建立于2012-04-26
@@ -53,7 +53,7 @@
 	"nmap <silent> <Leader>P <Plug>ToggleProject
 "-------program
 	"map <F5> :call Do_OneFileMake()<CR>
-	"map <F6> :call Do_make()<CR>
+	"map <F6> :!make<CR>
 	"map <c-F6> :silent make clean<CR>
 	"autocmd FileType c,cpp  map <buffer> <leader><space> :w<cr>:silent make<cr>:copen 5<cr>
 	"nmap <F7> :cp<cr>
@@ -640,8 +640,12 @@ function Do_OneFileMake()
     execute "copen 5"
 endfunction
 
-"多文件编译，注意因为是多文件编译，所以不运行。有两种运行模式。一种直接make　第二种make clean.
-map <F6> :call Do_make()<CR>
+"使用make编译。注意只编译不运行。有两种运行模式。
+"下面的一条语句是以前用的,执行完make后会把结果输出到quickfix窗口。但因窗口太小看起来不爽，况且有c.vim的 ,rm 命令执行make。所以这个命令用的不多。而且c.vim的 ,rm命令用的也不爽。现在我不想那么做了，想直接查看make执行命令后的窗口，所以把下面的那句话注释了。改成直接调用外部程序
+"map <F6> :call Do_make()<CR>
+map <F6> :!make<CR>
+
+"执行make clean
 map <c-F6> :silent make clean<CR>
 function Do_make()
     set makeprg=make

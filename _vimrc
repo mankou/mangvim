@@ -40,7 +40,7 @@
 	"nnoremap <silent>  tg :TlistToggle<CR>
 	"map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR> 
 "------winManager
-	"nmap wm :WMToggle<cr>
+	"nmap ,wm :WMToggle<cr>
 "------nerdtree
 	"nmap <F3> :NERDTree  <CR>
 "------Minibufexplorer
@@ -548,7 +548,7 @@ let Tlist_WinWidth = 10
 let g:winManagerWindowLayout='FileExplorer|TagList'
 
 "映射wm的快捷键
-nmap wm :WMToggle<cr>
+nmap ,wm :WMToggle<cr>
 
 "当右边窗口关窗时，自动关闭wm窗口
 let g:persistentBehaviour=0
@@ -755,7 +755,7 @@ let NERDTreeWinSize = 10 "size of the NERD tree
 	function! NERDTree_IsValid()  
     	return 1  
 	endfunction  
-	nmap wm :WMToggle<CR>  
+	nmap ,wm :WMToggle<CR>  
 
 "append nerdtree的设置在上面添加#########
 

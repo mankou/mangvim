@@ -1,4 +1,4 @@
-"last modify::2013-8-12 20:39:50
+"last modify::2014/7/27 8:50:49
 
 "#########规范说明####################
 "建立于2012-04-26
@@ -303,6 +303,10 @@ map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR>
 
 "pentadacty 本色设置　这样以后打开_pentadactyrcy就有语法着色了
 au BufRead,BufNewFile _pentadactylrc set filetype=pentadactyl
+
+
+"自定义宏命令
+let @m=":v/^create sequence/d:%s/^create/drop/g:%s/$/;/g,w"
 
 
 "append global 全局设置在上面添加

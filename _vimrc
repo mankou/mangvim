@@ -1,4 +1,4 @@
-"last modify::2014/7/27 8:50:49
+"last modify::2015/1/25 18:54:05
 
 "#########规范说明####################
 "建立于2012-04-26
@@ -134,6 +134,9 @@ set guifont=Courier\ New:h20
 "显示行号	
 set nu
 
+"不自动换行
+set nowrap
+
 
 "下面5行用来解决gVim菜单栏和右键菜单乱码问题"
 set encoding=utf8
@@ -259,6 +262,12 @@ map ,y "+y
 "设置 . 可用于选择模式下。即以前你想重复只能一行一行的重复。现在可以一次选中重复。
 vnoremap . :normal .<CR>
 
+"将光标快速定位到行的中间 2015-1-25来自百度
+"实际上如果你不是要求很严格的话，可以通过 20<空格>或者20l的方式往后移动光标
+map ,mm :exe "norm " . col("$")/2 . "\|" <CR>
+"网上说如下方式也是可以的，但我没有试，因为上面的方式已经ok了
+":cal cursor(line("."), col("$")/2)
+
 
 "vim不产生备份文件，备份文件存放在~/vimtmp 目录下。若是windows系统，则~目录指的是C:\Documents and Settings\用户名
 "set backup
@@ -306,7 +315,8 @@ au BufRead,BufNewFile _pentadactylrc set filetype=pentadactyl
 
 
 "自定义宏命令
-let @m=":v/^create sequence/d:%s/^create/drop/g:%s/$/;/g,w"
+let @m='v/^create sequence/d:%s/^create/drop/g:%s/$/;/g'
+let @n=':v/^create sequence/d:%s/^create sequence/select/g:%s/$/.nextval from dual;/g'
 
 
 "append global 全局设置在上面添加

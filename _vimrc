@@ -330,7 +330,7 @@ filetype plugin on "针对不同文件类型的相应plugin, 你可以使用该命令开启对它的应用
 syntax on
 
 "let $VIMHOME = 'E:\网盘\dBank\My DBank\wiki'
-let $VIMHOME = 'E:\ApplicationData\netDisk\Dropbox\wiki'
+let $VIMHOME = 'z:\AppData\快盘\wiki\'
 "设置wiki路径
 let g:vimwiki_list = [
 	\{
@@ -434,7 +434,8 @@ let g:vimwiki_folding = 1
 "启用子列表项折叠功能，现在也没看出来有什么效果
 let g:vimwiki_fold_lists = 1
 
-"输出的html是否自动编号。 默认为0。 0 关闭, 1 从一级标题开始 ,2 从二级标题开始  依次类推
+"输出的html是否自动编号。 默认为0。 0 关闭, 1 从一级标题开始 ,2 从二级标题开始
+"依次类推
 let g:vimwiki_html_header_numbering =1
 
 "在一个没有复选框的列表项目上按下\tt(自己设置的热键)则可以创建列表框。默认是1
@@ -504,8 +505,9 @@ map \[2 <esc>$a {{{2
 imap \[3 <esc>$a {{{3
 map \[3 <esc>$a {{{3
 
-"删除{{{1 {{{2 {{{3 的快捷键
-map }  <esc>:s/{{{\d//g <CR>
+"删除{{{1 {{{2 {{{3 的快捷键 2015-7-21决定去掉因为}是vim原生的快捷键
+"跳转到下一个空白行
+"map }  <esc>:s/{{{\d//g <CR>
 
 
  "配置标题颜色，该配置文件路径为：$vimhome/vimfiles/syntax/Voomtxt.vim 这里的标题是指vimwiki中的标题以及Voom中的标

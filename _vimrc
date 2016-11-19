@@ -218,26 +218,34 @@ set tabstop=4
 "设置每层缩进数
 set shiftwidth=4
 
+"映射快速打开与快速关闭快捷键
+map ,w :w<cr>
+map ,q :wq<cr>
 
-"设置小键盘数字键1和大键盘1 映射到  跳转到行末
-"map <k1> : <esc>$
-"map 1 : <esc>$  "由于两个1都设置成快捷键在正常模式下将不能输入数字1
+"映射快速复制、粘贴剪切板的快捷键
+map ,p "+p
+map ,P "+P
+map ,y "+y
+map ,x "+y<esc>dd
 
-"设置运行批处理文件的快捷键，用在用vimwiki写完log并导出html后快速复制html到相应目录下 c表示copy
-map ,mc	: <esc>:!..\..\copyNext.bat
-map ,mc2	: <esc>:!D:\shortcut\commonTools\copyLog\copyLog.bat
+"设置 . 可用于选择模式下。即以前你想重复只能一行一行的重复。现在可以一次选中重复。
+vnoremap . :normal .<CR>
 
-"设置切换到　mangCExercise_vim目录下。主要是为了使用版本控制的一些命令
-map ,mdc : <esc>: cd E:\CodeSpace\C\mangCExercise_Vim<cr>
+"vim不产生备份文件，备份文件存放在~/vimtmp 目录下。若是windows系统，则~目录指的是C:\Documents and Settings\用户名
+"set backup
+"set writebackup
+"set backupdir=d:\Program\ Files\vim\vimtmp\
+set nobackup
 
-"设置快速插入当前日期及时间
-"P表示把时间插入到当前光标前面,p表示把时间插入到当前光标后面
-:nnoremap ,mt "=strftime("%c")<CR>p
+"自动补全之字典补全 Ctrl+X Ctrl+K 
+"在dict.txt文件中可以自定义自动补全的单词 如<red> <modify>
+set dict=z:\AppData\百度云同步盘\applicationData\vim\dict.txt
 
-"设置快速插入 `时间` 要用 ,mt快捷键 a`表示插入` 然后回到一般模式，然后,mtt 输入时间 然后w 光标向后走一个字
-:map ,mg a`<esc>,mttw<esc>
-"设置快速插入当前时间的快捷键,注意必须是大写的H和M,小写的有问题
-:nnoremap ,mtt "=strftime("%H:%M")<CR>p
+" 重新载入_vimrc
+:nmap <Leader>s :source $MYVIMRC
+
+" 快速打开_vimrc, 也可使用:tabedit $MYVIMRC
+:nmap <Leader>v :e $MYVIMRC<cr>
 
 "快速打开当文件所以路径下的其它文件 来自于Vimtips
 "在正常模式下使用 ,e 然后用tab 切换文件。当然可以先输入几个字符再tab可以快速定位到文件.但实际使用时报错，这里先删除该映射
@@ -250,40 +258,6 @@ map ,mdc : <esc>: cd E:\CodeSpace\C\mangCExercise_Vim<cr>
 "也可,e <tab>
 "打开文件，不过打开的是窗口让你选择 因为这个可以联用TC快速定位目录
 map ,e :browse tabnew <cr>
-
-"映射快速打开与快速关闭快捷键
-map ,w :w<cr>
-map ,q :wq<cr>
-
-"映射快速复制、粘贴剪切板的快捷键
-map ,p "+p
-map ,y "+y
-
-"设置 . 可用于选择模式下。即以前你想重复只能一行一行的重复。现在可以一次选中重复。
-vnoremap . :normal .<CR>
-
-"将光标快速定位到行的中间 2015-1-25来自百度
-"实际上如果你不是要求很严格的话，可以通过 20<空格>或者20l的方式往后移动光标
-map ,mm :exe "norm " . col("$")/2 . "\|" <CR>
-"网上说如下方式也是可以的，但我没有试，因为上面的方式已经ok了
-":cal cursor(line("."), col("$")/2)
-
-
-"vim不产生备份文件，备份文件存放在~/vimtmp 目录下。若是windows系统，则~目录指的是C:\Documents and Settings\用户名
-"set backup
-"set writebackup
-"set backupdir=d:\Program\ Files\vim\vimtmp\
-set nobackup
-
-"自动补全之字典补全 Ctrl+X Ctrl+K 
-"在dict.txt文件中可以自定义自动补全的单词 如<red> <modify>
-set dict=E:\ApplicationData\netDisk\klive\applicationData\vim\dict.txt
-
-" 重新载入_vimrc
-:nmap <Leader>s :source $MYVIMRC
-
-" 快速打开_vimrc, 也可使用:tabedit $MYVIMRC
-:nmap <Leader>v :e $MYVIMRC<cr>
 
 
 "默认分割窗口的切换需要 Ctrl+w 与其他按键配合使用，下面的配置我觉得更加方便一些：
@@ -314,12 +288,107 @@ map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR>
 au BufRead,BufNewFile _pentadactylrc set filetype=pentadactyl
 
 
+
+"##########,m自定义快捷键整合##########
+
+"设置小键盘数字键1和大键盘1 映射到  跳转到行末
+"map <k1> : <esc>$
+"map 1 : <esc>$  "由于两个1都设置成快捷键在正常模式下将不能输入数字1
+
+"设置运行批处理文件的快捷键，用在用vimwiki写完log并导出html后快速复制html到相应目录下 c表示copy
+"map ,mc	: <esc>:!..\..\copyNext.bat
+
+"设置切换到　mangCExercise_vim目录下。主要是为了使用版本控制的一些命令
+"map ,mdc : <esc>: cd E:\CodeSpace\C\mangCExercise_Vim<cr>
+
+"# ,mt 时间系列
+"===,mt时间系列===
+
+"* ,mt 设置快速插入当前日期及时间
+"P表示把时间插入到当前光标前面,p表示把时间插入到当前光标后面
+:nnoremap ,mt "=strftime("%c")<CR>p
+
+"* ,mtt 设置快速插入当前时间的快捷键
+" 注意必须是大写的H和M,小写的有问题
+:nnoremap ,mtt "=strftime("%H:%M")<CR>p
+
+"# ,mf 文件名系列
+"===,mf文件名系列===
+
+"* ,mft 插入文件名不包含路径 
+"插入当前文件名 %t是不包含路径 %p包含路径
+:map ,mft <esc>O<c-r>=expand("%:t")<CR> 
+
+"* ,mfp 插入文件名包含路径
+:map ,mfp <esc>O<c-r>=expand("%:p")<CR> 
+
+"如下设置成缩写的方式 只要输入xfile就被替换成文件名
+iab xfile <c-r>=expand("%:t")<CR>
+iab xfilep <c-r>=expand("%:p")<CR>
+
+
+"* ,mfs 快速在sql文件中插入文件名 如prompt BU_CHANGE_STORE_PLAN.sql的字样
+:map ,mfs <esc>ggO<CR>prompt<CR>prompt xfile ...<esc>oprompt ==========<esc>
+
+
+"# ,mw 工作常用相关的处理
+"===,mw 工作常用相关的处理===
+
+"* ,mwt tms 写日报用 因从evernote中复制过来后需要去掉空行再复制到剪切板
+map ,mwt <esc>:g/^$/d<cr><esc>ggVG"+y
+
+"* ,mwd 快速删除当前文件中的debugger;的行
+"先跳转到第1行 然后删除含有debugger;行的代码
+map ,mwd :<esc>gg:%g/debugger;/d<cr>
+
+
+"* ,mwp 在url上快速加上ip 并复制到前切板
+map ,mwp :<esc>0ihttp://127.0.0.1:9080/<esc>"+yy
+
+"* ,mw# 快速删除shell中注释信息
+"2,$g/^\s*#/d 表示从行2行开始 替换 以\s*#开头的行 并删除
+"将连续的空行替换成单个空行
+map ,mw# :2,$g/^\s*#/d<cr>:%s/^\n$//g<esc>
+
+"* ,mwm 快速将vimrc中与,m有关的注释提取出来 然后我只需要删除每行行首的"
+"然后文件名后后缀加.md即可
+"^"\# ,m 表示找出以 "# ,m 这样的行 其中\#是转义
+"^"===,m 表示找出以 ^"===,m 这样的行
+"^"\* ,m 表示找出以 "* ,m 这样的行 其中\*是转义
+"\\| \\表示转义 输出\   反正是\|是表示或的意思 
+map ,mwm :%v/^"\# ,m\\|^"===,m\\|^"\* ,m/d
+
+"* ,mm 将光标快速定位到行的中间
+"2015-1-25来自百度
+"实际上如果你不是要求很严格的话，可以通过 20<空格>或者20l的方式往后移动光标
+map ,mm :exe "norm " . col("$")/2 . "\|" <CR>
+"网上说如下方式也是可以的，但我没有试，因为上面的方式已经ok了
+":cal cursor(line("."), col("$")/2)
+
+"# ,mg割接使用
+"===,mg割接使用===
 "自定义宏命令
-let @m='v/^create sequence/d:%s/^create/drop/g:%s/$/;/g'
-let @n=':v/^create sequence/d:%s/^create sequence/select/g:%s/$/.nextval from dual;/g'
+"因已经,mgd快捷键和该宏命令效果一样 所以就去掉
+"let @m='v/^create sequence/d:%s/^create/drop/g:%s/$/;/g'
 
+"* ,mgn 将sequence导出后的语句处理成select sequence.nextval from dual;的语句
+"使用场景一 sequence已经通过dmp导入了 现在需要把sequence增长20次  如 天津港增加sequence(增加20次)-20150729.sql
+"使用场景二 割接时需要快速做sequence 从正式库导出 再导入测试库 再把sequence弄大
+map ,mgn :<esc>:v/^create sequence/d:%s/^create sequence/select/g:%s/$/.nextval from dual;/g<cr>
 
-"append global 全局设置在上面添加
+"* ,mgd 快速将导出的sequence的语句整理成drop sequence的语句
+map ,mgd :<esc> :v/^create sequence/d<cr><esc>:%s/^create/drop/g<cr><esc>:%s/$/;/g<cr>
+
+"*,mgc 快速将导出的sequence整理成先drop 再创建 再nextvalue 50次
+",mgn表示处理成 select nextvalue的语句
+"ggVG"by表示把刚才处理成nextvalue的语句复制到b寄存器里
+"u表示恢复 到刚开始的文本 因为还要进行下面的处理而且上面处理后的语句也都复制了
+"ggVG"ay表示先将刚导出的sequence语句复制一份
+",,gd表示处理成drop语句
+"G"ap表示把刚才复制到a寄存器的语句粘贴 形成 先drop 再创建的语句
+"G50"bp 表示将粘贴第2步复制到寄存器的next语句 粘贴50次 形成先drop 再创建 再nextvaule50次的语句
+map ,mgc  ,mgnggVG"byuggVG"ay,mgdG"apG50"bp<cr>
+
 
 "###############Vimwiki相关设置  ########################
 "以下内容加于2011年8月11日18时40分54秒
@@ -329,8 +398,7 @@ set nocompatible
 filetype plugin on "针对不同文件类型的相应plugin, 你可以使用该命令开启对它的应用
 syntax on
 
-"let $VIMHOME = 'E:\网盘\dBank\My DBank\wiki'
-let $VIMHOME = 'z:\AppData\快盘\wiki\'
+let $VIMHOME = 'z:\AppData\百度云同步盘\wiki\'
 "设置wiki路径
 let g:vimwiki_list = [
 	\{
@@ -532,7 +600,7 @@ map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 "这项也不知道什么意思，网上说的，也就这样设了。
 set tags=tags;
-"自动切换目录到当前编辑的文件所以路径
+"自动切换目录到当前编辑的文件所在路径
 set autochdir
 
 "设置ctags.exe的路径，当然也可直接加到系统的环境变量中，这里就不再设置了。本来想设置在vim相关目录下，但因为program有空格没有成功，所以就另设了一个没有空格的路径。

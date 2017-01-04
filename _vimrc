@@ -218,15 +218,6 @@ set tabstop=4
 "设置每层缩进数
 set shiftwidth=4
 
-"映射快速打开与快速关闭快捷键
-map ,w :w<cr>
-map ,q :wq<cr>
-
-"映射快速复制、粘贴剪切板的快捷键
-map ,p "+p
-map ,P "+P
-map ,y "+y
-map ,x "+y<esc>dd
 
 "设置 . 可用于选择模式下。即以前你想重复只能一行一行的重复。现在可以一次选中重复。
 vnoremap . :normal .<CR>
@@ -287,6 +278,21 @@ map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR>
 "pentadacty 本色设置　这样以后打开_pentadactyrcy就有语法着色了
 au BufRead,BufNewFile _pentadactylrc set filetype=pentadactyl
 
+"# 通用快捷键
+
+"映射快速打开与快速关闭快捷键
+map ,w :w<cr>
+map ,q :wq<cr>
+
+"映射快速复制、粘贴剪切板的快捷键
+map ,p "+p
+map ,P "+P
+map ,y "+y
+map ,x "+y<esc>dd
+
+"来自VimTip--439:-Replace-text-in-highlighted…
+"nnoremap n //<CR>
+"nnoremap N ??<CR>
 
 
 "##########,m自定义快捷键整合##########
@@ -341,22 +347,55 @@ map ,mwt <esc>:g/^$/d<cr><esc>ggVG"+y
 "先跳转到第1行 然后删除含有debugger;行的代码
 map ,mwd :<esc>gg:%g/debugger;/d<cr>
 
+"* ,mwl 快速格式化装载机派工日志
+" java:1338
+":%s/-->/\r/g 将--> 换成换行
+":g/list/s/:\|),/)\r/g 
+" 将冒号: 或者), 替换成 )\r 即)换行
+":g/list/,$ normal >>
+	" 将包含list的行开始 到最后一行都 右移>> 这里包含list的行就是派工list
+	" 注 我本想使用如下的命令 将两个list之间的行右移但报错 所以我换成其它的了
+	":g/list/,/list/normal >>
+":g/list/s/\s*//g
+	" 将包含list行的行首空白删除
+":g/^/s/^\s\+/\t/g
+	" 将每一行的行前瞻空白换成tab
+	" 因为做上面 g/list/,$ normal >> 的命令后所有行都右移了 所以要做这一步操作
+" ggdd 删除第一行 因为第一行是空行
+" Gdd 删除最后一行 因为最后一行是endlist
+map ,mwl :<esc>:%s/-->/\r/g<cr>:g/list/s/:\\|),/)\r/g<cr>:g/list/,$ normal >><cr>:g/list/s/\s*//g<cr>:g/^/s/^\s\+/\t/g<cr><esc>ggddGdd
+
 
 "* ,mwp 在url上快速加上ip 并复制到前切板
 map ,mwp :<esc>0ihttp://127.0.0.1:9080/<esc>"+yy
 
 "* ,mw# 快速删除shell中注释信息
-"2,$g/^\s*#/d 表示从行2行开始 替换 以\s*#开头的行 并删除
+"2,$g/^\s*#/d 表示从行2行开始 替换 以\s*#开头的行 并删除 \s表示空白
+"*表示重复0次或n次 #就是shell中注释
 "将连续的空行替换成单个空行
 map ,mw# :2,$g/^\s*#/d<cr>:%s/^\n$//g<esc>
 
-"* ,mwm 快速将vimrc中与,m有关的注释提取出来 然后我只需要删除每行行首的"
-"然后文件名后后缀加.md即可
+"* ,mwm 快速将vimrc中与,m有关的注释提取出来 
+"m 取md之意
+"然后我只需要给修改文件名，加后缀.md即可
 "^"\# ,m 表示找出以 "# ,m 这样的行 其中\#是转义
 "^"===,m 表示找出以 ^"===,m 这样的行
 "^"\* ,m 表示找出以 "* ,m 这样的行 其中\*是转义
 "\\| \\表示转义 输出\   反正是\|是表示或的意思 
-map ,mwm :%v/^"\# ,m\\|^"===,m\\|^"\* ,m/d
+map ,mwm :%v/^"\#\+ ,m\\|^"===,m\\|^"\* ,m/d<cr><esc>gg0<c-v>Gx
+
+"* ,mwmac 快速将虚拟机windows中的路径换成mac下的路径方便你执行shell脚本
+"mac 取mac的意思
+"第一部分 把z:\改成 /User/mang/
+"第二部分 将\ 转换成/
+map ,mwmac <esc>:%s!z:\\!/Users/mang/!g<cr>:%s!\\!/!g<cr>
+
+"* ,mw\ 快速将\转换成/ 常用于windows中的路径转换中linux中的路径 
+" \取\之意
+" ! 这里用!代替原来s命令的/
+" \\表示转义
+map ,mw\ :%s!\\!/!g
+
 
 "* ,mm 将光标快速定位到行的中间
 "2015-1-25来自百度
@@ -371,24 +410,80 @@ map ,mm :exe "norm " . col("$")/2 . "\|" <CR>
 "因已经,mgd快捷键和该宏命令效果一样 所以就去掉
 "let @m='v/^create sequence/d:%s/^create/drop/g:%s/$/;/g'
 
-"* ,mgn 将sequence导出后的语句处理成select sequence.nextval from dual;的语句
+"## ,mgs 系列 sequence 系列 s取sequence的意思
+"* ,mgnn 将sequence导出后的语句处理成select sequence.nextval from dual;的语句
 "使用场景一 sequence已经通过dmp导入了 现在需要把sequence增长20次  如 天津港增加sequence(增加20次)-20150729.sql
 "使用场景二 割接时需要快速做sequence 从正式库导出 再导入测试库 再把sequence弄大
-map ,mgn :<esc>:v/^create sequence/d:%s/^create sequence/select/g:%s/$/.nextval from dual;/g<cr>
+map ,mgsn :<esc>:v/^create sequence/d:%s/^create sequence/select/g:%s/$/.nextval from dual;/g<cr>
 
-"* ,mgd 快速将导出的sequence的语句整理成drop sequence的语句
-map ,mgd :<esc> :v/^create sequence/d<cr><esc>:%s/^create/drop/g<cr><esc>:%s/$/;/g<cr>
+"* ,mgnd 快速将导出的sequence的语句整理成drop sequence的语句
+map ,mgsd :<esc> :v/^create sequence/d<cr><esc>:%s/^create/drop/g<cr><esc>:%s/$/;/g<cr>
 
-"*,mgc 快速将导出的sequence整理成先drop 再创建 再nextvalue 50次
+"* ,mgsc 快速将导出的sequence整理成先drop 再创建 再nextvalue 50次
+
+" 如下是原来的方式现在不用了 因为其复制的next.value是整体复制然后粘贴50次不好看
+"ggVG"ay表示先将刚导出的创建sequence语句复制一份 放到a寄存器里
 ",mgn表示处理成 select nextvalue的语句
 "ggVG"by表示把刚才处理成nextvalue的语句复制到b寄存器里
 "u表示恢复 到刚开始的文本 因为还要进行下面的处理而且上面处理后的语句也都复制了
-"ggVG"ay表示先将刚导出的sequence语句复制一份
-",,gd表示处理成drop语句
+",mgd表示处理成drop语句
 "G"ap表示把刚才复制到a寄存器的语句粘贴 形成 先drop 再创建的语句
 "G50"bp 表示将粘贴第2步复制到寄存器的next语句 粘贴50次 形成先drop 再创建 再nextvaule50次的语句
-map ,mgc  ,mgnggVG"byuggVG"ay,mgdG"apG50"bp<cr>
+"map ,mgc ggVG"ay,mgnggVG"byu,mgdG"apG50"bp<cr>
 
+" 新方式 这种方式复制的next.value的语句是按每行复制50次粘贴 再复制第2行
+"ggVG"ay表示先将刚导出的创建sequence语句复制一份 放到a寄存器里
+",mgn表示处理成 select nextvalue的语句
+"<esc>:g/^/normal yy50pj<cr> 表示把上面处理的select
+"nextvalue的语句每行复制50次 而且是按顺序的
+"ggVG"by 把刚才处理的复制50次之后的sequence 复制到b寄存器
+",mgd表示处理成drop语句
+"G"ap表示把刚才复制到a寄存器的语句粘贴 形成 先drop 再创建的语句
+"G"bp 表示将粘贴第2步复制到寄存器的next语句 形成先drop 再创建 再nextvaule50次的语句
+map ,mgsc ggVG"ay,mgsn<esc>:g/^/normal yy50pj<cr>ggVG"byu,mgsdG"apG"bp<cr>
+
+"## ,mgt 系列 table 系列 t取table的意思
+
+"* ,mgt0 快速将导出的建表语句中的comment设置成空
+"mgt0 因mg是与割接有关的所以放在mgt下 0表示comment 0
+"%v/^comment on /d 把有以comment on开头的行提取出来
+"%s/$/ is '';/g 表示在行尾加上 is '';的语句
+map ,mgt0 <esc>:%v/^comment on/d<cr>:%s/$/ is '';/g<cr>
+
+"* ,mgta 快速将导出的建表语句中的comment语句取出
+"mgta 因与割接有关所以放在mgt下 a表示comment all
+"^comment on 表示以comment on开头的行
+"^\s * is 表示以空白开头然后是is空格的行 注意is后面必须有空格 因为你有的字段名也是is
+"^'; 因为有的行的注释其分成2行了把单引号和;分在下一行了所以要格外注意下
+"\|表示或的意思 如果你在命令里直接写写成\|即可 但如果是在这里写配置要写成\\|
+map ,mgta <esc>:%v/^comment on \\|^\s*is \\|^';/d<cr>
+
+
+"* .mgcd 快速将导出的建表语句转换成drop表的语句并且倒序排列(解决有可能出现外键依赖的问题)
+map ,mgcd <esc>:%v/^create table/d<cr>:%s/create/drop/<cr>:%s/$/;/g<cr>:g/^/m0<cr>
+
+
+"# ,m自定义函数
+
+"* ,m-CopyMatches
+function! CopyMatches(reg)
+  let hits = []
+  %s//\=len(add(hits, submatch(0))) ? submatch(0) : ''/ge
+  let reg = empty(a:reg) ? '+' : a:reg
+  execute 'let @'.reg.' = join(hits, "\n") . "\n"'
+endfunction
+command! -register CopyMatches call CopyMatches(<q-reg>)
+
+"* ,m-KeepLines
+function! KeepLines(pattern)
+    let pattern = a:pattern
+    let hits = []
+    exec '%s/' . pattern . '/\=add(hits, submatch(0))/ge'
+    let str = join(hits, "\n") . "\n"
+    %d
+    put! = str
+endfunction
+command! -nargs=1 KeepLines call KeepLines(<f-args>)
 
 "###############Vimwiki相关设置  ########################
 "以下内容加于2011年8月11日18时40分54秒

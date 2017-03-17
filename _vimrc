@@ -479,12 +479,12 @@ map ,mm :exe "norm " . col("$")/2 . "\|" <CR>
 "let @m='v/^create sequence/d:%s/^create/drop/g:%s/$/;/g'
 
 "## ,mgs 系列 sequence 系列 s取sequence的意思
-"* ,mgnn 将sequence导出后的语句处理成select sequence.nextval from dual;的语句
+"* ,mgsn 将sequence导出后的语句处理成select sequence.nextval from dual;的语句
 "使用场景一 sequence已经通过dmp导入了 现在需要把sequence增长20次  如 天津港增加sequence(增加20次)-20150729.sql
 "使用场景二 割接时需要快速做sequence 从正式库导出 再导入测试库 再把sequence弄大
 map ,mgsn :<esc>:v/^create sequence/d:%s/^create sequence/select/g:%s/$/.nextval from dual;/g<cr>
 
-"* ,mgnd 快速将导出的sequence的语句整理成drop sequence的语句
+"* ,mgsd 快速将导出的sequence的语句整理成drop sequence的语句
 map ,mgsd :<esc> :v/^create sequence/d<cr><esc>:%s/^create/drop/g<cr><esc>:%s/$/;/g<cr>
 
 "* ,mgsc 快速将导出的sequence整理成先drop 再创建 再nextvalue 50次
@@ -525,6 +525,12 @@ map ,mgt0 <esc>:%v/^comment on/d<cr>:%s/$/ is '';/g<cr>
 "^'; 因为有的行的注释其分成2行了把单引号和;分在下一行了所以要格外注意下
 "\|表示或的意思 如果你在命令里直接写写成\|即可 但如果是在这里写配置要写成\\|
 map ,mgta <esc>:%v/^comment on \\|^\s*is \\|^';/d<cr>
+
+"* ,mgts 快速将表组织成表选择的方式
+map ,mgts <esc>ggOPL/SQL Developer Object Selection File
+			\	<cr><esc>,mt<cr>
+			\ :3,$s/^/table "yh"."/g<esc>
+		    \:3,$s/$/"/g<esc>	
 
 
 "* .mgcd 快速将导出的建表语句转换成drop表的语句并且倒序排列(解决有可能出现外键依赖的问题)

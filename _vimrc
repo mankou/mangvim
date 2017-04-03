@@ -166,7 +166,7 @@ set fileencodings=utf-8,gb2312,ucs-bom,euc-cn,euc-tw,gb18030,gbk,cp936
 
 :inoremap } <c-r>=ClosePair('}')<CR>
 
-:inoremap [ []<ESC>i
+":inoremap [ []<ESC>i
 
 :inoremap ] <c-r>=ClosePair(']')<CR>
 
@@ -462,6 +462,15 @@ map ,mwc <esc>:%s/\([A-Z]\)/_\1/g<cr>
 	" :%s/_\([a-z]\)/\U\1/g 表示查找 _小写字母 交将其变成大写
 	" 这里的\U表示将其变成大写 \1表示前面小括号匹配的字母
 map ,mwC <esc>ggguG:%s/_\([a-z]\)/\U\1/g<cr>
+
+
+"* ,mwdruidd 快速生成用于druid摄入文件的dimensions列
+map ,mwdruidd <esc>:g/^$/d<cr>
+			\gg<c-v>GI"<esc>
+			\:%s/$/",/g<esc>
+			\:%s/\n//g<esc>
+			\0i[<esc>
+			\$xa],
 
 
 

@@ -472,6 +472,28 @@ map ,mwdruidd <esc>:g/^$/d<cr>
 			\0i[<esc>
 			\$xa],
 
+"* ,mwdruidm 快速生成用于druid摄入文件的metrics
+" 生成后可直接复制然后放到jsonview中格式化 再自己改改类型和列名就能用了
+" 解释 
+	" :g/^$/d 删除空白行 因为从excel拷来的列第一行是空行
+	" :g/^/normal yyp 每行复制一次 
+	" :g/^/j 奇偶行合并
+	" :%s/^/{"name":"sum/g  每行前面加一些字符串
+	" :%s/ /","type":"longSum","fieldName":"/g 将空格替换成这些字符串
+	" :%s/$/"},/g" 第行最后加一些字符串
+	" G$x 删除最后一行的,号 
+	" gg0i[ 第一行最前面加一个[ 用于把json格式组织成数组
+	" G$a] 最后一行最后面加一个] 用于把json格式组织成数组
+map ,mwdruidm <esc>:g/^$/d 
+			\<esc>:g/^/normal yyp<cr>
+			\:g/^/j<cr>
+			\:%s/^/{"name":"sum/g<cr>
+			\:%s/ /","type":"longSum","fieldName":"/g<cr>
+			\:%s/$/"},/g<cr>
+			\G$x
+			\gg0i[<esc>
+			\G$a]<esc>
+
 
 
 "* ,mm 将光标快速定位到行的中间

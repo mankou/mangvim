@@ -214,6 +214,8 @@ set cmdheight=2
 
 "设置tab键宽度
 set tabstop=4
+" 设置tab替换为空格
+set expandtab
 
 "设置每层缩进数
 set shiftwidth=4
@@ -502,6 +504,21 @@ map ,mwdruidm <esc>:g/^$/d
 map ,mm :exe "norm " . col("$")/2 . "\|" <CR>
 "网上说如下方式也是可以的，但我没有试，因为上面的方式已经ok了
 ":cal cursor(line("."), col("$")/2)
+
+"# ,ms sql语句处理
+"===,ms sql语句处理===
+"* ,mss 将导出的insert语句中的id换成s_test.nextval
+"注之所以命令最后面不加<CR>是因为我只想把命令打出来 具体的sequence的名你自己改
+"改完后 你自己按回车执行下
+"处理前
+"insert into t_test (ID, CODE, NAME)
+"values (-1, '-1code', '-1name');
+"
+"处理后
+"insert into t_test (ID, CODE, NAME)
+"values (s_test.nextval, '-1code', '-1name');
+
+map ,mss <esc>:%s/(-*\d\+/(s_test.nextval/g
 
 "# ,mg割接使用
 "===,mg割接使用===

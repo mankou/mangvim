@@ -292,6 +292,8 @@ map ,P "+P
 map ,y "+y
 map ,x "+y<esc>dd
 
+
+
 "来自VimTip--439:-Replace-text-in-highlighted…
 "nnoremap n //<CR>
 "nnoremap N ??<CR>
@@ -409,6 +411,7 @@ map ,mw# :2,$g/^\s*#/d<cr>:%s/^\n$//g<esc>
 "第一部分 把z:\改成 /User/mang/
 "第二部分 将\ 转换成/
 map ,mwmac <esc>:%s!z:\\!/Users/mang/!g<cr>:%s!\\!/!g<cr>
+command FilePathToMac : execute 'normal ,mwmac'
 
 "* ,mw\ 快速将\转换成/ 常用于windows中的路径转换中linux中的路径 
 " \取\之意

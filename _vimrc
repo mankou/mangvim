@@ -157,28 +157,28 @@ set fileencodings=utf-8,gb2312,ucs-bom,euc-cn,euc-tw,gb18030,gbk,cp936
 " ######### 括号匹配 ######### "
 
 " 设置括号、引号自动完成
-:inoremap ( ()<ESC>i
+" :inoremap ( ()<ESC>i
 
-:inoremap ) <c-r>=ClosePair(')')<CR>
+" :inoremap ) <c-r>=ClosePair(')')<CR>
 
 "注释掉原因，为了设置Voom的快捷键[1 [2 [3
 ":inoremap { {}<ESC>i
 
-:inoremap } <c-r>=ClosePair('}')<CR>
+" :inoremap } <c-r>=ClosePair('}')<CR>
 
 ":inoremap [ []<ESC>i
 
-:inoremap ] <c-r>=ClosePair(']')<CR>
+" :inoremap ] <c-r>=ClosePair(']')<CR>
 
-:inoremap < <><ESC>i
+" :inoremap < <><ESC>i
 	
-:inoremap > <c-r>=ClosePair('>')<CR>
+" :inoremap > <c-r>=ClosePair('>')<CR>
 
 ":inoremap " ""<ESC>i
 
 "":inoremap ' ''<ESC>i
 
-:inoremap ` ``<ESC>i
+" :inoremap ` ``<ESC>i
 
 function ClosePair(char)
 	if getline('.')[col('.') - 1] == a:char
@@ -375,6 +375,7 @@ map ,mwt <esc>:g/^$/d<cr><esc>ggVG"+y
 "* ,mwd 快速删除当前文件中的debugger;的行
 "先跳转到第1行 然后删除含有debugger;行的代码
 map ,mwd :<esc>gg:%g/debugger;/d<cr>
+command DelDebugger : execute 'normal ,mwd'
 
 "* ,mwLoad 快速格式化装载机派工日志
 " java:1338
@@ -403,6 +404,13 @@ map ,mwp :<esc>0ihttp://127.0.0.1:9080/<esc>"+yy
 "*表示重复0次或n次 #就是shell中注释
 "将连续的空行替换成单个空行
 map ,mw# :2,$g/^\s*#/d<cr>:%s/^\n$//g<esc>
+
+
+"* ,mw: 快速删除批处理bat中注释信息
+"2,$g/^\s*::/d 表示从行2行开始 替换 以\s*#开头的行 并删除 \s表示空白
+"*表示重复0次或n次 #就是shell中注释
+"将连续的空行替换成单个空行
+map ,mw: :2,$g/^\s*::/d<cr>:%s/^\n$//g<esc>
 
 
 "* ,mwmac 快速将虚拟机windows中的路径换成mac下的路径方便你执行shell脚本

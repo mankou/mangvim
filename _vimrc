@@ -1034,7 +1034,7 @@ noremap Q :CMiniBufExplorer<CR>:q<CR>
 noremap tm :TMiniBufExplorer<CR>  
 
 "设置成0代表总是显示buf窗口，1表示当有一个文件时显示buf,2表示当有两个文件时才显示buf.依次类推.从其字面意思就能看出来morethanone3表示大于3时才有buf
-let g:miniBufExplorerMoreThanOne=3
+let g:miniBufExplorerMoreThanOne=30
 
 "append MiniBufExplorer设置在上面添加
 "##########bufexplorer设置########
@@ -1181,3 +1181,7 @@ let g:Tex_CompileRule_pdfm = 'dvipdfm $*.dvi'
 map \lp <esc>:TCTarget pdfm<cr>\ll
 
 "####################latex设置在上面###################
+
+
+
+map ,mxx : <esc>gg3dd<esc>Gd2k
